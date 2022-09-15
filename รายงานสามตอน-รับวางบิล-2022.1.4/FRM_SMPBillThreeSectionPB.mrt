@@ -1,0 +1,3594 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <PurInv Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>PurInv</Alias>
+        <ConnectionStringEncrypted>9D7dSGJ4091gW6WYSklgP9Fuy8JFWXv16UnojU1x43+NWs3J5EoxbXFvnNxjZCS71Or7K8ZR88hqSYSAyAnrXoFU2aHGUEHtQEdxmXoN5+uCVsGD3ExD8HJJ0ZhjHelmg3CBzeVLAYTtTb34xBmk</ConnectionStringEncrypted>
+        <Key>dc6322f9ef6e49b7a1a50ac6d36bab36</Key>
+        <Name>PurInv</Name>
+      </PurInv>
+    </Databases>
+    <DataSources isList="true" count="7">
+      <TAPTPiHD Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TAPTPiHD</Alias>
+        <Columns isList="true" count="31">
+          <value>ORIGINAL,FTBchCodePB,FTBchCodePB,FTBchCodePB,System.String,_x0036_fe783f2c4864e54b150453feb51cfc5</value>
+          <value>ORIGINAL,FTXphDocNoPB,FTXphDocNoPB,FTXphDocNoPB,System.String,b2c7bdaaf1a641af9d3536c6e196e3e5</value>
+          <value>FTBchCode,System.String</value>
+          <value>ORIGINAL,FTXphDocNo,FTXphDocNo,FTXphDocNo,System.String,_x0032_8ffe0314d7b4ec58478c571d05648b4</value>
+          <value>FNXphDocType,System.Int32</value>
+          <value>FDXphDocDate,System.String</value>
+          <value>FTXphDateTH,System.String</value>
+          <value>FTXphDateEN,System.String</value>
+          <value>ORIGINAL,FTXphBudept,FTXphBudept,FTXphBudept,System.String,_x0034_76dc5bb937a4480aab25e9adbdd3077</value>
+          <value>ORIGINAL,FTXphBusiness,FTXphBusiness,FTXphBusiness,System.String,_x0031_9926bfef4e245afb903a293589178ae</value>
+          <value>ORIGINAL,FTXphReason,FTXphReason,FTXphReason,System.String,_x0031_f1190e88a61488980aa402fe945ff59</value>
+          <value>ORIGINAL,FTXphLocation,FTXphLocation,FTXphLocation,System.String,_x0033_2dfe0b4c259460b9823bcd6f10537d3</value>
+          <value>ORIGINAL,FTXphProfit,FTXphProfit,FTXphProfit,System.String,_x0037_5980c0420f348aabe107cd64328691a</value>
+          <value>ORIGINAL,FTXphBudget,FTXphBudget,FTXphBudget,System.String,_x0033_a7f7d10125546039e600686953717a1</value>
+          <value>FTXphDefinit,System.String</value>
+          <value>ORIGINAL,FTXphCreater,FTXphCreater,FTXphCreater,System.String,_x0033_4b9b0476108451595bd43e440e819ed</value>
+          <value>ORIGINAL,FTXphCreaterPosi,FTXphCreaterPosi,FTXphCreaterPosi,System.String,_x0033_d999c5b355449298cec42ed8f3d4bef</value>
+          <value>ORIGINAL,FTXphChecker,FTXphChecker,FTXphChecker,System.String,_x0038_0b233214b4b4b7ebcb74f470839ec2b</value>
+          <value>ORIGINAL,FTXphCheckerPosi,FTXphCheckerPosi,FTXphCheckerPosi,System.String,bc55cb42dc114578913a24e4d2486c13</value>
+          <value>ORIGINAL,FTXphApprove,FTXphApprove,FTXphApprove,System.String,d87ced6b91c04a38b185250cf3820e55</value>
+          <value>ORIGINAL,FTXphAppPosi,FTXphAppPosi,FTXphAppPosi,System.String,_x0033_ca554ffc1ff4061864449a3d2523a40</value>
+          <value>ORIGINAL,FTSplCode,FTSplCode,FTSplCode,System.String,c9370552832f4d3bb2fb89f5afd3dd39</value>
+          <value>ORIGINAL,FTSplName,FTSplName,FTSplName,System.String,bf158d2d608a4057b6b5cdbcdd0b608b</value>
+          <value>FTXphRefExt,System.String</value>
+          <value>FDXphRefExtDate,System.DateTime</value>
+          <value>FCXphVatable,System.Decimal</value>
+          <value>ORIGINAL,FCXphVat,FCXphVat,FCXphVat,System.Decimal,_x0038_8822852f1b847e490b7e5de92ab2332</value>
+          <value>ORIGINAL,FCXphGrand,FCXphGrand,FCXphGrand,System.Decimal,da026d1f7cf544f9acdff09d271db630</value>
+          <value>ORIGINAL,FTXphVATInOrEx,FTXphVATInOrEx,FTXphVATInOrEx,System.String,_x0034_ebcd7d28e2b4ac89512ead6d1cb80bc</value>
+          <value>FTXphApvCode,System.String</value>
+          <value>FTUsrName,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>345421fc200b4fc5bc9c223b5e49735c</Key>
+        <Name>TAPTPiHD</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,8,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT FTBchCodePB,FTXphDocNoPB,FTBchCode,FTXphDocNo,FNXphDocType,FDXphDocDate,FTXphDateTH,FTXphDateEN,
+	FTXphBudept,FTXphBusiness,FTXphReason,FTXphLocation,FTXphProfit,FTXphBudget,FTXphDefinit,FTXphCreater,FTXphCreaterPosi,FTXphChecker,
+	FTXphCheckerPosi,FTXphApprove,FTXphAppPosi,FTSplCode,FTSplName,FTXphRefExt,FDXphRefExtDate,
+	FCXphVatable,
+	FCXphVat,FCXphGrand,FTXphVATInOrEx,FTXphApvCode,FTUsrName
+	FROM
+(SELECT FTBchCodePB,FTXphDocNoPB,FTBchCode,FTXphDocNo,FNXphDocType,CONVERT(VARCHAR(10),FDXphDocDate,121) AS FDXphDocDate,
+	CASE MONTH(FDXphDocDate)
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,FDXphDocDate) &lt; 1500 THEN dateadd(year,543,FDXphDocDate) ELSE FDXphDocDate END,'dd ธ.ค. yy')
+				END AS FTXphDateTH,
+				FORMAT(HD.FDXphDocDate,'dd MMM yy') AS FTXphDateEN,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='BUDEPT01') AS FTXphBudept ,    
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='BUNAME01') AS FTXphBusiness, 
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='REASON01') AS FTXphReason,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='LOCATION01') AS FTXphLocation,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='PROFITPAYABLE01') AS FTXphProfit,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='BUDGET01') AS FTXphBudget,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='DEFINITION01') AS FTXphDefinit,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='CREATOR01') AS FTXphCreater,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='CREATORPOS01') AS FTXphCreaterPosi,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='CHECKER01') AS FTXphChecker,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='CHECKERPOS01') AS FTXphCheckerPosi,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='APROVER01') AS FTXphApprove,
+(SELECT ISNULL(FTMapUsrValue,'') FROM TLKMMapping WITH (NOLOCK) WHERE FTMapCode='APROVERPOS01') AS FTXphAppPosi,
+	HD.FTSplCode,SPLL.FTSplName , FTXphRefExt , FDXphRefExtDate,FCXphVatable,FCXphVat,FCXphGrand , FTXphVATInOrEx,FTXphApvCode,FTUsrName
+	FROM
+(SELECT PbDT.FTBchCode AS FTBchCodePB, PbDT.FTXphDocNo AS FTXphDocNoPB ,HD.FTBchCode,HD.FTXphDocNo,1 AS FNXphDocType, FDXphDocDate ,HD.FTSplCode,FTXphRefExt,FDXphRefExtDate,FCXphVatable,FCXphVat,CAST(FCXphGrand AS DECIMAl(18,2)) AS FCXphGrand,FTXphVATInOrEx,FTXphApvCode
+	FROM TACTPbDT PbDT WITH (NOLOCK)  INNER JOIN
+	 TAPTPiHD HD WITH (NOLOCK)  ON  PbDT.FTXpdRefDocNo = HD.FTXphDocNo
+	 WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch
+
+	 UNION ALL
+SELECT PbDT.FTBchCode AS FTBchCodePB, PbDT.FTXphDocNo AS FTXphDocNoPB ,HD.FTBchCode,HD.FTXphDocNo,1 AS FNXphDocType, FDXphDocDate ,HD.FTSplCode,FTXphRefExt,FDXphRefExtDate,FCXphVatable,FCXphVat,CAST(FCXphGrand AS DECIMAl(18,2)) AS FCXphGrand,FTXphVATInOrEx,FTXphApvCode
+	FROM TACTPbDT PbDT WITH (NOLOCK)  INNER JOIN
+	 TAPTPcHD HD WITH (NOLOCK)  ON  PbDT.FTXpdRefDocNo = HD.FTXphDocNo
+	 WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch
+	
+	 UNION ALL
+SELECT PbDT.FTBchCode AS FTBchCodePB, PbDT.FTXphDocNo AS FTXphDocNoPB ,HD.FTBchCode,HD.FTXphDocNo,1 AS FNXphDocType, FDXphDocDate ,HD.FTSplCode,FTXphRefExt,FDXphRefExtDate,FCXphVatable,FCXphVat,CAST(FCXphGrand AS DECIMAl(18,2)) AS FCXphGrand,FTXphVATInOrEx,FTXphApvCode
+	FROM TACTPbDT PbDT WITH (NOLOCK)  INNER JOIN
+	 TAPTPdHD HD WITH (NOLOCK)  ON  PbDT.FTXpdRefDocNo = HD.FTXphDocNo
+	 WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch
+
+   ) HD 
+   LEFT JOIN TCNMSpl_L SplL WITH (NOLOCK)  ON  HD.FTSplCode=SplL.FTSplCode AND SplL.FNLngID = @pnLanguage
+   LEFT JOIN TCNMUser_L UsrL WITH (NOLOCK)  ON  HD.FTXphApvCode=UsrL.FTUsrCode AND UsrL.FNLngID = @pnLanguage	
+) SalHD
+ORDER BY FTBchCode,FTXphDocNo</SqlCommand>
+      </TAPTPiHD>
+      <TCNMComp Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TCNMComp</Alias>
+        <Columns isList="true" count="21">
+          <value>FTCompName,System.String</value>
+          <value>FTAddrType,System.String</value>
+          <value>FTAddName,System.String</value>
+          <value>FTBchName,System.String</value>
+          <value>FTAddV1No,System.String</value>
+          <value>FTAddV1Soi,System.String</value>
+          <value>FTAddV1Village,System.String</value>
+          <value>FTAddV1Road,System.String</value>
+          <value>FTAddV1SubDist,System.String</value>
+          <value>FTSudName,System.String</value>
+          <value>FTAddV1DstCode,System.String</value>
+          <value>FTDstName,System.String</value>
+          <value>FTAddV1PvnCode,System.String</value>
+          <value>FTPvnName,System.String</value>
+          <value>FTAddV1PostCode,System.String</value>
+          <value>FTAddV2Desc1,System.String</value>
+          <value>FTAddV2Desc2,System.String</value>
+          <value>FTAddTel,System.String</value>
+          <value>FTAddFax,System.String</value>
+          <value>FTAddWebsite,System.String</value>
+          <value>FTAddTaxNo,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>62f1278bde8e44199693af890f63ea2f</Key>
+        <Name>TCNMComp</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="4">
+          <value>ptCompCode,SP_tCompCode,22,5</value>
+          <value>pnLanguage,nLanguage,8,3</value>
+          <value>pnAddSeq,SP_nAddSeq,16,3</value>
+          <value>ptCmpBch,SP_tCmpBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeMer,'') THEN FTMerName ELSE 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeAgn,'') THEN FTAgnName ELSE  
+		CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeBch,'') THEN FTCmpName ELSE 
+			CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeCmp,'') THEN FTCmpName ELSE 
+				''
+			END
+		END
+	END
+END
+AS 	FTCompName,
+FTAddrType,FTAddName,(SELECT FTBchName FROM TCNMBranch_L WHERE  FTBchCode = @ptCmpBch AND FNLngID = @pnLanguage ) AS FTBchName,
+FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,FTSudName,FTAddV1DstCode,FTDstName,FTAddV1PvnCode,FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+FTAddTel,FTAddFax,FTAddWebsite  ,FTAddTaxNo
+FROM
+(SELECT AddrL.FTAddRefCode,FTAddRefCodeMer,Mer.FTMerName,Agn.FTAddRefCodeAgn,Agn.FTAgnName,Bch.FTAddRefCodeBch,Bch.FTCmpName AS FTCmpNameBch,FTAddRefCodeCmp,Cmp.FTCmpName,
+	FTAddVersion AS FTAddrType,AddrL.FTAddName,
+	FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,SDstL.FTSudName,FTAddV1DstCode,DstL.FTDstName,FTAddV1PvnCode,PvnL.FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+	AddrL.FTAddTel,AddrL.FTAddFax,AddrL.FTAddWebsite  ,FTAddTaxNo
+	FROM TCNMAddress_L AddrL
+	 LEFT JOIN
+			 (
+SELECT FTBchCode,Bch.FTMerCode,FTMerName,FTAddRefCode AS FTAddRefCodeMer
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+				INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTMerCode = AddrL.FTAddRefCode 
+				LEFT JOIN TCNMMerChant_L MerL WITH (NOLOCK) ON Bch.FTMerCode = MerL.FTMerCode AND MerL.FNLngID = @pnLanguage
+				WHERE FTBchCode = @ptCmpBch  AND AddrL.FTAddGrpType = '7' AND AddrL.FTAddRefNo = '1'
+			 ) Mer ON AddrL.FTAddRefCode  = Mer.FTAddRefCodeMer 
+
+	 LEFT JOIN
+			
+(SELECT FTBchCode,Agn.FTAgnCode,AgnL.FTAgnName,FTAddRefCode AS FTAddRefCodeAgn
+	FROM  TCNMAgency Agn WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Agn.FTBchCode = AddrL.FTAddRefCode 
+			 LEFT JOIN TCNMAgency_L AgnL WITH (NOLOCK) ON Agn.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID = @pnLanguage
+			 WHERE Agn.FTBchCode = @ptCmpBch  AND AddrL.FTAddRefNo = '1'
+			) Agn  ON AddrL.FTAddRefCode  = Agn.FTAddRefCodeAgn
+
+	 LEFT JOIN
+		
+(SELECT Bch.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeBch
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+			 LEFT JOIN TCNMComp Cmp WITH (NOLOCK) ON Cmp.FTBchCode = Bch.FTBchCode 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTBchCode = AddrL.FTAddRefCode 
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Bch.FTBchCode = @ptCmpBch  AND AddrL.FTAddRefNo = '1'
+			) Bch ON  AddrL.FTAddRefCode  = Bch.FTAddRefCodeBch
+	 LEFT JOIN
+		
+(SELECT Cmp.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeCmp
+	FROM  TCNMComp Cmp WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Cmp.FTBchCode = AddrL.FTAddRefCode 
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Cmp.FTBchCode = @ptCmpBch  AND AddrL.FTAddRefNo = '1'
+			) Cmp ON  AddrL.FTAddRefCode  = Cmp.FTAddRefCodeCmp
+	 LEFT JOIN TCNMProvince_L PvnL WITH (NoLock) ON  AddrL.FTAddV1PvnCode = PvnL.FTPvnCode AND PvnL.FNLngID = @pnLanguage
+	 LEFT JOIN TCNMDistrict_L DstL WITH (NoLock) ON  AddrL.FTAddV1DstCode = DstL.FTDstCode AND DstL.FNLngID = @pnLanguage		
+	 LEFT JOIN TCNMSubDistrict_L SDstL WITH (NoLock) ON  AddrL.FTAddV1SubDist = SDstL.FTSudCode AND SDstL.FNLngID = @pnLanguage		
+	 WHERE AddrL.FTAddRefNo = '1' AND (AddrL.FTAddRefCode = FTAddRefCodeMer OR (AddrL.FTAddRefCode = FTAddRefCodeAgn OR AddrL.FTAddRefCode = FTAddRefCodeBch OR AddrL.FTAddRefCode = FTAddRefCodeCmp))
+) AddrSum
+
+</SqlCommand>
+      </TCNMComp>
+      <TAPTPiDT Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TAPTPiDT</Alias>
+        <Columns isList="true" count="9">
+          <value>FTBchCode,System.String</value>
+          <value>FTXphDocNo,System.String</value>
+          <value>FCXpdVat,System.Decimal</value>
+          <value>FTPdtName,System.String</value>
+          <value>FTBchName,System.String</value>
+          <value>FTCshSoldTo,System.String</value>
+          <value>FCXpdQty,System.Decimal</value>
+          <value>FCXpdSetPrice,System.Decimal</value>
+          <value>FCXpdNet,System.Decimal</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>174af1cc661845feb1bfd0456cda40c9</Key>
+        <Name>TAPTPiDT</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,8,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT SalDT.FTBchCode,SalDT.FTXphDocNo,FCXpdVat,
+	FTPdtName,BCHL.FTBchName ,ISNULL(CSH.FTCshSoldTo,'') AS FTCshSoldTo , 
+	SalDT.FCXpdQty,SalDT.FCXpdSetPrice , SalDT.FCXpdNet
+	FROM
+(SELECT DT.FTBchCode,DT.FTXphDocNo,SUM(ISNULL(FCXpdVat,0)) AS FCXpdVat,
+	SUM(ISNULL(DT.FCXpdQty,0)) AS FCXpdQty,SUM(DT.FCXpdSetPrice*FCXpdQty)/ SUM(FCXpdQty) AS FCXpdSetPrice , SUM(ISNULL(DT.FCXpdNet,0)) AS FCXpdNet,
+	FTPdtName = STUFF((SELECT ','+ FTPdtName
+									FROM TACTPbDT PbDTSub WITH (NOLOCK) INNER JOIN
+									TAPTPiDT DT WITH (NOLOCK) ON PbDTSub.FTXpdRefDocNo = DT.FTXphDocNo
+									LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+									WHERE PbDTSub.FTBchCode = @ptDocBch AND PbDTSub.FTXphDocNo= @ptDocNo AND PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+									FOR XML PATH ('')),1,1,''
+									)  
+	FROM TACTPbDT PbDT WITH (NOLOCK) INNER JOIN
+	TAPTPiDT DT WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+	LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+	WHERE PbDT.FTBchCode = @ptDocBch AND PbDT.FTXphDocNo= @ptDocNo
+	GROUP BY DT.FTBchCode,DT.FTXphDocNo,PbDT.FTXpdRefDocNo
+UNION ALL
+SELECT DT.FTBchCode,DT.FTXphDocNo,SUM(ISNULL(FCXpdVat,0)) AS FCXpdVat,
+	SUM(ISNULL(DT.FCXpdQty,0)) AS FCXpdQty,SUM(DT.FCXpdSetPrice*FCXpdQty)/ SUM(FCXpdQty) AS FCXpdSetPrice , SUM(ISNULL(DT.FCXpdNet,0)) AS FCXpdNet,
+	FTPdtName = STUFF((SELECT ','+ FTPdtName
+									FROM TACTPbDT PbDTSub WITH (NOLOCK) INNER JOIN
+									TAPTPcDT DT WITH (NOLOCK) ON PbDTSub.FTXpdRefDocNo = DT.FTXphDocNo
+									LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+									WHERE PbDTSub.FTBchCode = @ptDocBch AND PbDTSub.FTXphDocNo= @ptDocNo AND PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+									FOR XML PATH ('')),1,1,''
+									)  
+	FROM TACTPbDT PbDT WITH (NOLOCK) INNER JOIN
+	TAPTPcDT DT WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+	LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+	WHERE PbDT.FTBchCode = @ptDocBch AND PbDT.FTXphDocNo= @ptDocNo
+	GROUP BY DT.FTBchCode,DT.FTXphDocNo,PbDT.FTXpdRefDocNo
+
+		UNION ALL
+SELECT DT.FTBchCode,DT.FTXphDocNo,SUM(ISNULL(FCXpdVat,0)) AS FCXpdVat,
+	SUM(ISNULL(DT.FCXpdQty,0)) AS FCXpdQty,SUM(DT.FCXpdSetPrice*FCXpdQty)/ SUM(FCXpdQty) AS FCXpdSetPrice , SUM(ISNULL(DT.FCXpdNet,0)) AS FCXpdNet,
+	FTPdtName = STUFF((SELECT ','+ FTPdtName
+									FROM TACTPbDT PbDTSUB WITH (NOLOCK) INNER JOIN
+									TAPTPdDT DT WITH (NOLOCK) ON PbDTSUB.FTXpdRefDocNo = DT.FTXphDocNo
+									LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+									WHERE PbDTSUB.FTBchCode = @ptDocBch AND PbDTSUB.FTXphDocNo= @ptDocNo AND PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+									FOR XML PATH ('')),1,1,''
+									)  
+	FROM TACTPbDT PbDT WITH (NOLOCK) INNER JOIN
+	TAPTPdDT DT WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = DT.FTXphDocNo
+	LEFT JOIN TCNMPdt_L PdtL WITH (NOLOCK) ON DT.FTPdtCode = PdtL.FTPdtCode AND PdtL.FNLngID = @pnLanguage
+	WHERE PbDT.FTBchCode = @ptDocBch AND PbDT.FTXphDocNo= @ptDocNo
+	GROUP BY DT.FTBchCode,DT.FTXphDocNo ,PbDT.FTXpdRefDocNo
+
+		) SalDT
+	LEFT JOIN TCNMBranch BCH WITH (NOLOCK)  ON SalDT.FTBchCode=BCH.FTBchCode
+	LEFT JOIN TCNMBranch_L BCHL WITH (NOLOCK)  ON SalDT.FTBchCode = BCHL.FTBchCode 
+	LEFT JOIN TLKMCstShp CSH WITH (NOLOCK)  ON SalDT.FTBchCode=CSH.FTBchCode
+ORDER BY SalDT.FTBchCode,SalDT.FTXphDocNo</SqlCommand>
+      </TAPTPiDT>
+      <DateNow Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>DateNow</Alias>
+        <Columns isList="true" count="1">
+          <value>ORIGINAL,FTXphDateNow,FTXphDateNow,FTXphDateNow,System.String,_x0030_6c1015f59c24bf7835c37d42ee167c0</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>af125e28b509490086abe696aee8174a</Key>
+        <Name>DateNow</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>SELECT
+CASE MONTH(GETDATE())
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,GETDATE()) &lt; 1500 THEN dateadd(year,543,GETDATE()) ELSE GETDATE() END,'dd ธ.ค. yy')
+				END AS FTXphDateNow</SqlCommand>
+      </DateNow>
+      <TAPTPiHDDocRefMaxDate Ref="7" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TAPTPiHDDocRefMaxDate</Alias>
+        <Columns isList="true" count="2">
+          <value>FDXshRefDocDate,System.DateTime</value>
+          <value>FTXphDateNowMax,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>37480361ff5c4603a26e92bd51f68a51</Key>
+        <Name>TAPTPiHDDocRefMaxDate</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="2">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT MAX(FDXshRefDocDate) AS FDXshRefDocDate,
+	CASE MONTH(MAX(FDXshRefDocDate))
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ธ.ค. yy')
+				END AS FTXphDateNowMax
+FROM TACTPbDT PbDT WITH (NOLOCK) 
+LEFT JOIN TAPTPiHDDocRef PiHDDoc WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = FTXshDocNo AND FTXshRefType = '3' AND FTXshRefKey = 'BillNote'
+WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch</SqlCommand>
+      </TAPTPiHDDocRefMaxDate>
+      <TAPTPiHDDocRef Ref="8" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TAPTPiHDDocRef</Alias>
+        <Columns isList="true" count="6">
+          <value>ORIGINAL,FTXpdRefDocNo,FTXpdRefDocNo,FTXpdRefDocNo,System.String,_x0037_555302ef3c1447e8eb5654c1f5b9b82</value>
+          <value>ORIGINAL,FTXshRefDocNo,FTXshRefDocNo,FTXshRefDocNo,System.String,_x0034_d45e3d43f5f48a89b18dbcf28392dd5</value>
+          <value>ORIGINAL,FDXshRefDocDate,FDXshRefDocDate,FDXshRefDocDate,System.DateTime,_x0031_394a2648a51403badb5946d24042e7e</value>
+          <value>ORIGINAL,FDXshRefDocDateTH,FDXshRefDocDateTH,FDXshRefDocDateTH,System.String,_x0030_a46f6c6898940749457cf2c0f0bb4aa</value>
+          <value>ORIGINAL,FTXphDocNo,FTXphDocNo,FTXphDocNo,System.String,_x0034_92274c072324bb09540867f6fd2b3b8</value>
+          <value>ORIGINAL,FTBchCode,FTBchCode,FTBchCode,System.String,_x0033_329d067f4064d71a43f7bc8fa9b18fe</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>cc71367659a94a01b6036bbf00206385</Key>
+        <Name>TAPTPiHDDocRef</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="2">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT PbDT.FTXphDocNo,PbDT.FTBchCode,PbDT.FTXpdRefDocNo,PiHDDoc.FTXshRefDocNo,FDXshRefDocDate,
+	CASE MONTH(FDXshRefDocDate)
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,FDXshRefDocDate) &lt; 1500 THEN dateadd(year,543,FDXshRefDocDate) ELSE FDXshRefDocDate END,'dd ธ.ค. yy')
+				END AS FDXshRefDocDateTH
+FROM TACTPbDT PbDT WITH (NOLOCK) 
+LEFT JOIN TAPTPiHDDocRef PiHDDoc WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = FTXshDocNo AND FTXshRefType = '3' AND FTXshRefKey = 'BillNote'
+WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch
+ORDER BY FDXshRefDocDate</SqlCommand>
+      </TAPTPiHDDocRef>
+      <TAPTPiHDDocRefMinDate Ref="9" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TAPTPiHDDocRefMinDate</Alias>
+        <Columns isList="true" count="4">
+          <value>ORIGINAL,FDXshRefDocDate,FDXshRefDocDate,FDXshRefDocDate,System.DateTime,_x0039_c8132e4733149eda4a6f119f20e419f</value>
+          <value>ORIGINAL,FTXphDateNowMax,FTXphDateNowMax,FTXphDateNowMax,System.String,_x0035_79c38d2165e4661903a1acc8cbba53d</value>
+          <value>FTXphDateNowMIN,System.String</value>
+          <value>FDXshRefDocDateMin,System.DateTime</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>40ce8f33dd514b3b9bafe05a20869142</Key>
+        <Name>TAPTPiHDDocRefMinDate</Name>
+        <NameInSource>PurInv</NameInSource>
+        <Parameters isList="true" count="2">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT  MIN(FDXshRefDocDate) AS FDXshRefDocDateMin,
+	CASE MONTH(MIN(FDXshRefDocDate))
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,MIN(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MIN(FDXshRefDocDate)) ELSE MIN(FDXshRefDocDate) END,'dd ธ.ค. yy')
+				END AS FTXphDateNowMIN,
+	MAX(FDXshRefDocDate) AS FDXshRefDocDate,
+	CASE MONTH(MAX(FDXshRefDocDate))
+				WHEN 1 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ม.ค. yy')
+				WHEN 2 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.พ. yy')
+				WHEN 3 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd มี.ค. yy')
+				WHEN 4 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd เม.ย. yy')
+				WHEN 5 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd พ.ค. yy')
+				WHEN 6 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd มิ.ย. yy')
+				WHEN 7 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.ค. yy')
+				WHEN 8 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ส.ค. yy')
+				WHEN 9 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ก.ย. yy')
+				WHEN 10 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ต.ค. yy')
+				WHEN 11 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd พ.ย. yy')
+				WHEN 12 THEN FORMAT(CASE WHEN datediff(year,543,MAX(FDXshRefDocDate)) &lt; 1500 THEN dateadd(year,543,MAX(FDXshRefDocDate)) ELSE MAX(FDXshRefDocDate) END,'dd ธ.ค. yy')
+				END AS FTXphDateNowMax
+FROM TACTPbDT PbDT WITH (NOLOCK) 
+LEFT JOIN TAPTPiHDDocRef PiHDDoc WITH (NOLOCK) ON PbDT.FTXpdRefDocNo = FTXshDocNo AND FTXshRefType = '3' AND FTXshRefKey = 'BillNote'
+WHERE PbDT.FTXphDocNo = @ptDocNo AND PbDT.FTBchCode = @ptDocBch</SqlCommand>
+      </TAPTPiHDDocRefMinDate>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <Name Ref="10" type="DataRelation" isKey="true">
+        <Alias>Name</Alias>
+        <ChildColumns isList="true" count="3">
+          <value>FTBchCodePB</value>
+          <value>FTXphDocNoPB</value>
+          <value>FTXphDocNo</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Key>2a84e7de604d4f73b15d669c3412c08b</Key>
+        <Name>Name</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns isList="true" count="3">
+          <value>FTBchCode</value>
+          <value>FTXphDocNo</value>
+          <value>FTXpdRefDocNo</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Name>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="9">
+      <value>,SP_nLang,SP_nLang,,System.Int32,_x0031_,False,False,False,False,,_x0038_1e1ecf0b00f4fb88f4e9008334ec56f,True</value>
+      <value>,nLanguage,nLanguage,,System.Int32,_x0031_,False,False,False,False,,_x0039_54aafb24983458aad48ca84b5cc2ea7,True</value>
+      <value>,SP_tCompCode,SP_tCompCode,,System.String,_x0030_0001,False,False,False,False,,_x0037_2ccd2d9f44f49e2b0ff75fbc0a9422f,True</value>
+      <value>,SP_tCmpBch,SP_tCmpBch,,System.String,_x0030_0001,False,False,False,False,,ae6461c6753e4a689094c0d8fa5b5b96,True</value>
+      <value>,SP_nAddSeq,SP_nAddSeq,,System.Int32,_x0033_,False,False,False,False,,d642d21b8ac84457a4f9faf8c268e255,True</value>
+      <value>,SP_tDocNo,SP_tDocNo,,System.String,PB0008122000006,False,False,False,False,,a54f1c1a0ade4ef2ba9983849d9f1b8f,True</value>
+      <value>,SP_tGrdStr,SP_tGrdStr,,System.String,,False,False,False,False,,d9cbd874d64b47eb8609c23276af7a5e,True</value>
+      <value>,SP_tDocBch,SP_tDocBch,,System.String,_x0030_0081,False,False,False,False,,_x0037_5eba9944cce4cae99beb11220898f6f,True</value>
+      <value>,SP_tFileName,SP_tFileName,,System.String,F05052021122400,False,False,False,False,,b4275fb8ccec4e77935d6e86eb6d4d75</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>02b2ce925dcd424ebff664cea4f3f7fd</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="11" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="9">
+        <PageHeaderBand1 Ref="12" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,20.4,5.86</ClientRectangle>
+          <Components isList="true" count="78">
+            <Shape2 Ref="13" type="Shape" isKey="true">
+              <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>64, 0, 64</BorderColor>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,5.04,20.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>563f2db33a544a66a88dc3d893fc041c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Shape2</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <ShapeType Ref="14" type="Stimulsoft.Report.Components.ShapeTypes.StiRectangleShapeType" isKey="true" />
+            </Shape2>
+            <Text54 Ref="15" type="Text" isKey="true">
+              <Border>Right;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,5.04,2.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>6329bf25b60a47cc89a35d4c7541a4ab</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ราคารวม
+(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text54>
+            <Text1 Ref="16" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.55,0.3,1.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>หน่วยงาน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="17" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.85,0.3,2.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{TAPTPiHD.FTXphBudept}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="18" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.65,0.3,1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>b8b3ac040de5480d989e4727c560f209</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>เลขที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="19" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.35,0.3,2.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>76888521c20149da9827f10f0834defb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="20" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.55,0.85,1.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>800e8110c8434abe81f8a105e38cb80b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ธุรกิจ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text6 Ref="21" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.85,0.85,2.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>ae01a729d0804e82a72c8af8f07482e8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{TAPTPiHD.FTXphBusiness}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text7 Ref="22" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.65,0.85,1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>c17576ed0cce40bba1ba4adeedb26995</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>วันที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="23" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.35,0.85,2.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>af51c71b8f884bc99ba59d62324138ae</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>          /          / </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Shape1 Ref="24" type="Shape" isKey="true">
+              <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>64, 0, 64</BorderColor>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,1.45,20.4,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <ForeColor>Black</ForeColor>
+              <Margins>0,0,0,0</Margins>
+              <Name>Shape1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <ShapeType Ref="25" type="Stimulsoft.Report.Components.ShapeTypes.StiRectangleShapeType" isKey="true" />
+            </Shape1>
+            <Text9 Ref="26" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.6,20.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>652f811d761c4288992c6c1cd94955f1</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>รายงานการขอจัดหา</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="27" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.45,2.2,1.9,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>37cccde2c5eb482e997783ca3e086041</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>วัตถุประสงค์</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="28" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.65,2.2,17.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>2235a23ef4a34d6aabbd633f25a160f8</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{TAPTPiHD.FTXphReason}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <BarCode1 Ref="29" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="30" type="Stimulsoft.Report.BarCodes.StiCode128AutoBarCodeType" isKey="true" />
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <ClientRectangle>14.7,3,5.4,2</ClientRectangle>
+              <Code>{SP_tFileName}</Code>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Name>BarCode1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <VertAlignment>Center</VertAlignment>
+            </BarCode1>
+            <Text12 Ref="31" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.45,2.9,1.9,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>2a53b2cc72a54e3fa859e52e2711d297</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>สถานที่ใช้งาน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="32" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.65,2.9,9.5,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>43743d6705f2408e8936fbfb0e5a1ca9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{TAPTPiHD.FTXphLocation}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <CheckBox1 Ref="33" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>None</CheckStyleForTrue>
+              <ClientRectangle>12.4,2.75,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Name>CheckBox1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox1>
+            <Text14 Ref="34" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.15,2.9,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>4bec0701b149435bb00b6b3ada1306bb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ค่าใช้จ่าย</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="35" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.45,3.75,2.1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>3b4c2a097afa4af3b4a1dd2cca10aaeb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Profit Center</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <CheckBox2 Ref="36" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>2.65,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>d86cf64570e648d1949322a073e6f5e5</Guid>
+              <Name>CheckBox2</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox2>
+            <CheckBox3 Ref="37" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>3.4,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>ae093c7964354315934467d679c0e549</Guid>
+              <Name>CheckBox3</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox3>
+            <CheckBox4 Ref="38" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>4.15,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>ebb46f739a5d4c138ca2f5fd463add7f</Guid>
+              <Name>CheckBox4</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox4>
+            <CheckBox5 Ref="39" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>4.9,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>f731a77c46b44dcfb143fe2240be7924</Guid>
+              <Name>CheckBox5</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox5>
+            <CheckBox6 Ref="40" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>5.65,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>6479e37ac1e14d4692234ead5d5c3607</Guid>
+              <Name>CheckBox6</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox6>
+            <CheckBox7 Ref="41" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>6.4,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>fb332c0b54444844b835b5b54ad985f3</Guid>
+              <Name>CheckBox7</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox7>
+            <CheckBox8 Ref="42" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>7.15,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>dd5acf7bc55c49709368495b081f9bba</Guid>
+              <Name>CheckBox8</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox8>
+            <CheckBox9 Ref="43" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>7.9,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>b040251349d64e7d97362eb03893d4a6</Guid>
+              <Name>CheckBox9</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox9>
+            <CheckBox10 Ref="44" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>8.65,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>67712973237c4e1a98f5d79b2702007e</Guid>
+              <Name>CheckBox10</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox10>
+            <CheckBox11 Ref="45" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>9.4,3.58,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>c00b92d50c2447d3a8098573f7284716</Guid>
+              <Name>CheckBox11</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox11>
+            <Text16 Ref="46" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.75,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,0,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="47" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>26cda429d96a41348d6e83ee1020f130</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,1,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="48" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.25,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>89bf84a9ecd74720a3d6258d93e4810b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,2,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="49" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>8de3b036aa1b4d3a8b09e190998e9a84</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,3,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text20 Ref="50" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.75,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>61f6474e347849c29f718ff0d550ad6b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,4,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text21 Ref="51" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.5,3.62,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>50cc7484c2ff412ba73374f146eb6022</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,5,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="52" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.25,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>ab83bbdcc411440a9fe8a165c4dbdefc</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,6,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="53" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>cda2d599b82a4a189e7b3f0e571b9ace</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,7,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="54" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.75,3.62,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>550d66be41804144969921cce4bba882</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,8,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text25 Ref="55" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.5,3.67,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>8ab33f5576c64fd8b2b04a47986fbedd</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphProfit,9,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text27 Ref="56" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.15,3.7,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>6045391cb0b7454a981a9f07a48120df</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ต้นทุน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <CheckBox13 Ref="57" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <Checked>true</Checked>
+              <CheckStyleForFalse>Cross</CheckStyleForFalse>
+              <CheckStyleForTrue>Cross</CheckStyleForTrue>
+              <ClientRectangle>12.4,3.53,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Name>CheckBox13</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox13>
+            <Text28 Ref="58" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.45,4.52,2.15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>bf9a4dacf02c459abbe8e560e8443577</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>รหัสงบประมาณ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <CheckBox14 Ref="59" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>2.65,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>1241442e91c24c70b651df43d0a6fc2c</Guid>
+              <Name>CheckBox14</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox14>
+            <CheckBox15 Ref="60" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>3.4,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>6aa0eba75149417c936cfc4012fb3982</Guid>
+              <Name>CheckBox15</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox15>
+            <CheckBox16 Ref="61" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>4.15,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>e5932443d86d4a408e8db1d8f3d22ca4</Guid>
+              <Name>CheckBox16</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox16>
+            <CheckBox17 Ref="62" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>4.9,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>620de0d1a874457e90e77204c8e3bb5f</Guid>
+              <Name>CheckBox17</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox17>
+            <CheckBox18 Ref="63" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>6.4,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>941b1dfe487846e4a5289d65e45d8da5</Guid>
+              <Name>CheckBox18</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox18>
+            <CheckBox19 Ref="64" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>7.15,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>47718f66bec34cc4a46454df2aaf5cc3</Guid>
+              <Name>CheckBox19</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox19>
+            <CheckBox20 Ref="65" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>7.9,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>95eaa6ddbda348ab8bcfa4d0a4d08dcc</Guid>
+              <Name>CheckBox20</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox20>
+            <CheckBox21 Ref="66" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>8.65,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>0e70ca08519148cf8594f1193b5a8a65</Guid>
+              <Name>CheckBox21</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox21>
+            <CheckBox22 Ref="67" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>9.4,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>f2be5c31a88b435189cfa54e4b5594f4</Guid>
+              <Name>CheckBox22</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox22>
+            <Text29 Ref="68" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.75,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>eef7ff408446474199db13a6328fe274</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,0,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text30 Ref="69" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>49e85b2183214fc3ac1f444facf56b20</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,1,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text31 Ref="70" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.25,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>b97d81099cee45c4a669a105e660af72</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,2,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="71" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>fd4231ced8404605b1466f83dc0677ae</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,3,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="72" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.5,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>1e14de765109420a8eb1edcd5c0f4062</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,5,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="73" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.25,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>543287c4af4c4f00a071e685f34fd754</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,6,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text35 Ref="74" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>7ed0ada4bd2441f09b1921cef92f8132</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,7,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="75" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.75,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>6a9150385b6f4f1fa1e9b617a1a49c06</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,8,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="76" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.5,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>f683a26d586349d0b2cb5fa9b86dca10</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,9,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <CheckBox23 Ref="77" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>5.65,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>dc6115a2142c4d68a3b18e160757de6c</Guid>
+              <Name>CheckBox23</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox23>
+            <Text38 Ref="78" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>bc87e1e0d673417ca1ea757e70c98e31</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,4,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <CheckBox24 Ref="79" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>10.15,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>9f9d0a80190c4c52833f67eb6e378d57</Guid>
+              <Name>CheckBox24</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox24>
+            <Text39 Ref="80" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.25,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>9a0ae89302c44e439afc45edbd49ab72</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,10,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <CheckBox25 Ref="81" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CheckStyleForTrue>NoneRectangle</CheckStyleForTrue>
+              <ClientRectangle>10.9,4.35,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>b76e6b0c80d64e0a8c99ff3dca43da4f</Guid>
+              <Name>CheckBox25</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox25>
+            <Text40 Ref="82" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,4.44,0.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>db6157f66d04434b83a9cc2ba521d3ba</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{Mid(TAPTPiHD.FTXphBudget,11,1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 Ref="83" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.15,4.42,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>09a08d334c364d918997cc635ee056ed</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Petty Cash</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <CheckBox26 Ref="84" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <Checked>true</Checked>
+              <CheckStyleForTrue>None</CheckStyleForTrue>
+              <ClientRectangle>12.4,4.31,0.65,0.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>05dacb7be8cf46e09298ca056f4e0d27</Guid>
+              <Name>CheckBox26</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox26>
+            <Text42 Ref="85" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5.04,1.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>dc04aedf64024b9abea5857c259df849</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ลำดับ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="86" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,5.04,6.97,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>4aeacd8440764d91a667bb1a3b8f0e9a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>รายการ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text46 Ref="87" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.07,5.04,4.45,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>599db615a47340029aa57a51c31c2956</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>สาขา</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text48 Ref="88" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.52,5.04,1.95,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>8507458166264699ad67b1fc66ff7ca9</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Customer/
+Cost Center</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text48>
+            <Text50 Ref="89" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.47,5.04,1.12,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>da4c3483da3447db807b98987a107582</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>จำนวน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text52 Ref="90" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.59,5.04,2.21,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>218156e7c91a4aef9835e5c45fa5f2e8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ราคาต่อหน่วย
+(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text52>
+            <Image1 Ref="91" type="Image" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.25,0,2.4,1.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <HorAlignment>Center</HorAlignment>
+              <IconColor>68, 114, 196</IconColor>
+              <ImageBytes>iVBORw0KGgoAAAANSUhEUgAAASoAAACQCAYAAAC/HCaIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOkQyRTJEQzZGNDlEOTExRTg5MjhEQTg5N0VGNUM4MzQzIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOkQyRTJEQzcwNDlEOTExRTg5MjhEQTg5N0VGNUM4MzQzIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDJFMkRDNkQ0OUQ5MTFFODkyOERB
+ODk3RUY1QzgzNDMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDJFMkRDNkU0OUQ5MTFFODky
+OERBODk3RUY1QzgzNDMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz6Q6J03AAAdrklEQVR42uxdXWxcx3WepVYiJTcVExeWIf+t
+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
+AAAASUVORK5CYII=</ImageBytes>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Stretch>True</Stretch>
+              <VertAlignment>Center</VertAlignment>
+            </Image1>
+            <Text111 Ref="92" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.84,0.25,9.7,1.1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>fd2c8f8865f14dd383b351cea290a501</Guid>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text111</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>PTT Oil and Retail Business Company Limited
+แบบฟอร์มขอจัดหาสินค้าเชิงพาณิชย์ ด้วยวิธีตกลงราคา
+(สำหรับการจัดหาวงเงินไม่เกิน 200,000 บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text111>
+            <StartPointPrimitive6 Ref="93" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive6</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <ReferenceToGuid>4f9b3d0fcf4e4a5c823ac7577b9a96b1</ReferenceToGuid>
+            </StartPointPrimitive6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="94" type="PageFooterBand" isKey="true">
+          <Border>Top;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,19.92,20.4,15</ClientRectangle>
+          <Components isList="true" count="63">
+            <Text59 Ref="95" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,0.4,20.4,0.47</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>9df184a89d2146ecbfab496e9b5c3599</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text59</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>การอนุมัติการจัดหา</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text59>
+            <Text60 Ref="96" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,0.88,6.4,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>f0248b7a74384914ac80e8f28267fc99</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text60</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ผู้จัดทำคำขอ/กรรมการจัดหาสินค้า</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text60>
+            <Text61 Ref="97" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>6.4,0.88,5.8,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>3113051274af4b6187e6d2252f439229</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text61</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>การแต่งตั้งคณะกรรมการตรวจรับ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text61>
+            <Text62 Ref="98" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>12.2,0.88,8.2,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>61dcd3993b73489796158da1f3e8f326</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text62</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ผู้อนุมัติคำขอ/อนุมัติจัดหาสินค้าเห็นควรอนุมัติและลงนาม</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text62>
+            <Text63 Ref="99" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.35,1.39,5.8,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>fd556fd1002d41a7867e9a09af12b1eb</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text63</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text63>
+            <Text64 Ref="100" type="Text" isKey="true">
+              <Border>Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.5,1.89,5.25,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>7eb9a2eeb8a248f88d209ad76a9cbaa2</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>({TAPTPiHD.FTXphCreater})</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text64>
+            <Text65 Ref="101" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.3,2.34,1.15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>35d2c9b52e9e460a8625511b21ffb986</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ตำแหน่ง</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text65>
+            <Text66 Ref="102" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,2.34,4.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>80d42d19f99147cabd32e362c7062783</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHD.FTXphCreaterPosi}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text66>
+            <Text67 Ref="103" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.3,2.84,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>8daa32ee43d2429cb34874cef222011c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>วันที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text67>
+            <Text68 Ref="104" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,2.84,4.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>11ee6b9a4b784ca39f27aa782dc07b3b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHDDocRefMinDate.FTXphDateNowMIN}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text68>
+            <Text69 Ref="105" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.55,1.39,5.5,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>dceb57dd056d4db5af902fd6fe14788c</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHD.FTXphChecker}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text69>
+            <Text70 Ref="106" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.75,1.39,7.4,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>144c89ea661d440584483c2026792fbc</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text70</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text70>
+            <Text71 Ref="107" type="Text" isKey="true">
+              <Border>Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.95,1.89,6.75,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>b0e58609f1bb4d63bce16a930c308967</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text71</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>({TAPTPiHD.FTXphApprove})</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text71>
+            <Text72 Ref="108" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.7,2.34,1.1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>82541439b62e41dab6af539f02c1f042</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ตำแหน่ง</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text72>
+            <Text73 Ref="109" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.9,2.34,6.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>1e27a8e17a4a4768924514f01857bc2c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHD.FTXphAppPosi}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text73>
+            <Text74 Ref="110" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.7,2.84,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>1207da6e2b204565b6a3e30ec2c6c8e7</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text74</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>วันที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text74>
+            <Text75 Ref="111" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.9,2.84,6.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>70a5c78690524fbf9291ba61a25cd021</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text75</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHDDocRefMinDate.FTXphDateNowMIN}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text75>
+            <Text76 Ref="112" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,3.48,20.4,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>ac81eaf8ab604e079d341acf8cdf18cd</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text76</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>รายงานผลการดำเนินการจัดหา</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text76>
+            <Text77 Ref="113" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,3.92,7.4,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>90acae09099446ae8c7e6446cf0e9496</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text77</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ผู้ขาย/ผู้รับจ้าง</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text77>
+            <Text78 Ref="114" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>7.4,3.92,3.5,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>b5847fcc01d94074b7bc66204161af19</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text78</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>เลขที่ใบเสร็จรับเงิน/ใบส่งของ
+ใบแจ้งหนี้/ใบกำกับภาษี</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text78>
+            <Text79 Ref="115" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>10.9,3.92,1.95,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>386c620282b54ce3ae0abca9b176062b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text79</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ลงวันที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text79>
+            <Text80 Ref="116" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>12.85,3.92,2.5,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>74c065d8e77c4c2d8f5a395da0f0bf49</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text80</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>มูลค่าไม่รวมภาษี
+(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text80>
+            <Text81 Ref="117" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>15.35,3.92,2.2,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>ee1e85f45ec44f9d8613aab0f728abeb</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text81</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>VAT (บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text81>
+            <Text82 Ref="118" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>17.55,3.92,2.85,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>01b6b6f22dd6442188c959973dba8011</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ราคารวม (บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text82>
+            <Text88 Ref="119" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,5.85,20.4,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>7e1355b2e7c54d908cd1a7ed9d863a20</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text88</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>การตรวจรับสินค้า</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text88>
+            <Text89 Ref="120" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,6.3,20.4,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>0aaeb5abafe541d696b328cb44a4a700</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text89</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>คณะกรรมการตรวจรับสินค้า</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text89>
+            <Text58 Ref="121" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,20.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>025e9808f7c34a35827bed81eff3e8e3</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text58</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ข้อกำหนด OR ว่าด้วย การจัดหาและจำหน่ายสินค้า พ.ศ.2565</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text58>
+            <Text90 Ref="122" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.3,6.85,9.45,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>3b8f98a7e3be4b4abd3e7edfebdf71bf</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text90</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>- ได้ตรวจรับเป็นการถูกต้อง ครบถ้วนทั้งหมดแล้ว เมื่อ วันที่  {TAPTPiHDDocRefMaxDate.FTXphDateNowMax}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text90>
+            <Text91 Ref="123" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.3,7.67,7.05,0.12</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>d5a6241df43b45b1a607e4186d144b06</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.4</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text91</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text91>
+            <Text92 Ref="124" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.3,8.18,1.1,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>e0dfc18722eb40c89da73300b1dc0741</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text92</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>ตำแหน่ง</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text92>
+            <Text93 Ref="125" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.5,8.18,5.85,0.44</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>c8039c4a42e64f289ff84eb8cd803d8d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text93</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHD.FTXphCheckerPosi}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text93>
+            <Text94 Ref="126" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.3,8.78,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>bec8222fd49f4f5db3461a1d8857acc1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text94</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>วันที่</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text94>
+            <Text95 Ref="127" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;2;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.5,8.78,5.85,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>9748f2cb948449b1a67f6fb046f672cb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text95</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHDDocRefMaxDate.FTXphDateNowMax}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text95>
+            <Text96 Ref="128" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[255:126:10]</Brush>
+              <ClientRectangle>0,9.5,20.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>bb23780252a34f568a9c1c6cf4eecbf9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text96</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>จ่ายให้</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text96>
+            <Text97 Ref="129" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.9,10.2,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>5f4715e5f55e406c950c0f145118f997</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text97</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>บริษัท/หจก.</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text97>
+            <CheckBox12 Ref="130" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <Checked>true</Checked>
+              <CheckStyleForFalse>Cross</CheckStyleForFalse>
+              <CheckStyleForTrue>Cross</CheckStyleForTrue>
+              <ClientRectangle>0.2,10.08,0.55,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>6ea683e26dec4d5190a019a84621361d</Guid>
+              <Name>CheckBox12</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox12>
+            <Text98 Ref="131" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.9,10.93,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>4165b2888974482c9f95d748d67e48e2</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text98</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>พนักงานชื่อ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text98>
+            <CheckBox27 Ref="132" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <Checked>true</Checked>
+              <CheckStyleForTrue>None</CheckStyleForTrue>
+              <ClientRectangle>0.2,10.91,0.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>3a44d3ace46244cdafb02fc655772b80</Guid>
+              <Name>CheckBox27</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox27>
+            <Text99 Ref="133" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.85,11.71,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>467f09b9dbd248ed89649a7030e88356</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text99</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>รหัสพนักงาน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text99>
+            <Text100 Ref="134" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,11,7.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>cacffb62c5404f6480a2e7fdf058fb60</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text100</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text100>
+            <Text101 Ref="135" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,10.12,7.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>cdad71d4f3444d78a71d9f2a3bdf3c19</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text101</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>{TAPTPiHD.FTSplCode} {TAPTPiHD.FTSplName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text101>
+            <Text102 Ref="136" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.9,10.93,2.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>b873b6e07afe4f8cb644e242f251b817</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text102</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>เข้าบัญชีธนาคาร</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text102>
+            <CheckBox28 Ref="137" type="CheckBox" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <Checked>true</Checked>
+              <CheckStyleForTrue>None</CheckStyleForTrue>
+              <ClientRectangle>10.15,10.96,0.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ContourColor>Black</ContourColor>
+              <Expressions isList="true" count="0" />
+              <Guid>20a6de09daf94c2381101666175be70d</Guid>
+              <Name>CheckBox28</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+            </CheckBox28>
+            <Text103 Ref="138" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.75,11.71,4.6,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>ae9b8b95ff234f2db2066ce904de20f7</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text103</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text103>
+            <Text104 Ref="139" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.45,11.71,0.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>9d8e23bccf0b4bef99e469a5a09599ee</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text104</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>โทร</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text104>
+            <Text105 Ref="140" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.15,11.71,3.5,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>cb7d6e457b874083ac864e5007225f87</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text105</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text105>
+            <Text106 Ref="141" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.7,11.71,1.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>68e8b9044b924518a00efcf9aa893597</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text106</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>จำนวนเงิน</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text106>
+            <Text107 Ref="142" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.2,10.93,3.5,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>0dca79a2aadc4b23ae917f6830ca7bc6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text107</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text107>
+            <Text108 Ref="143" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.8,10.93,1.45,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>4d8ebb8f9c904eb8946231af16456fc2</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text108</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>บาท</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text108>
+            <Text109 Ref="144" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.1,11.77,7.1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>8ba2f571f86c40e4aba8133e21ff8025</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text109</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text109>
+            <Text110 Ref="145" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.6,12.71,4.75,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Guid>266b4a7439c44ccb807b1a433f0b8b3b</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text110</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>Ref. No {SP_tFileName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text110>
+            <Text114 Ref="146" type="Text" isKey="true">
+              <Border>Bottom;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.05,12.71,4.75,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Guid>daf474c5391c489fa0d9e9dddfe3d898</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text114</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>หน้า {PageNumber} / {TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text114>
+            <Panel1 Ref="147" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,4.75,20.4,0.59</ClientRectangle>
+              <Components isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Panel1</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+            </Panel1>
+            <SubPB Ref="148" type="SubReport" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,4.71,20.4,0.58</ClientRectangle>
+              <Components isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <KeepSubReportTogether>True</KeepSubReportTogether>
+              <Name>SubPB</Name>
+              <Page isRef="11" />
+              <Parameters isList="true" count="0" />
+              <Parent isRef="94" />
+              <SubReportPageGuid>633cb7846e584c41a9388c2660146790</SubReportPageGuid>
+              <SubReportUrl />
+            </SubPB>
+            <Text117 Ref="149" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.32,7.76,7.04,0.44</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text117</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <Text>({TAPTPiHD.FTXphChecker})</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text117>
+            <Text118 Ref="150" type="Text" isKey="true">
+              <Border>None;Black;1;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.12,13.76,7.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,8</Font>
+              <Guid>d4319fe2c9774b6eb0affc92020c3134</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text118</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text118>
+            <EndPointPrimitive2 Ref="151" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>20.4,3.48,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>48312a9125fd42a1bea8196a89f6de9b</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <StartPointPrimitive2 Ref="152" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,1.32,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive2</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>48312a9125fd42a1bea8196a89f6de9b</ReferenceToGuid>
+            </StartPointPrimitive2>
+            <StartPointPrimitive3 Ref="153" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>6.4,1.3,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive3</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>638a721d5acd4009b8f9e275e25ff007</ReferenceToGuid>
+            </StartPointPrimitive3>
+            <EndPointPrimitive3 Ref="154" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>6.4,3.48,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>638a721d5acd4009b8f9e275e25ff007</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <StartPointPrimitive4 Ref="155" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>12.2,1.35,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>a0cce07e0d7547df83ac03abb906e164</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <EndPointPrimitive4 Ref="156" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>12.2,3.48,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>a0cce07e0d7547df83ac03abb906e164</ReferenceToGuid>
+            </EndPointPrimitive4>
+            <EndPointPrimitive6 Ref="157" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>20.4,12.66,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive6</Name>
+              <Page isRef="11" />
+              <Parent isRef="94" />
+              <ReferenceToGuid>4f9b3d0fcf4e4a5c823ac7577b9a96b1</ReferenceToGuid>
+            </EndPointPrimitive6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </PageFooterBand1>
+        <GroupHeaderBand1 Ref="158" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.06,20.4,0.1</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{TAPTPiHD.FTXphDocNo}</Condition>
+          <Conditions isList="true" count="0" />
+          <Enabled>False</Enabled>
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <ResetPageNumber>True</ResetPageNumber>
+        </GroupHeaderBand1>
+        <DataBand1 Ref="159" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <CanBreak>True</CanBreak>
+          <ClientRectangle>0,7.96,20.4,0.43</ClientRectangle>
+          <Components isList="true" count="7">
+            <Text44 Ref="160" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.05,0,1.05,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Guid>4fa9b33c3ff8414c952bffc578f46dc9</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="161" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,0,6.89,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{TAPTPiDT.FTPdtName}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text47 Ref="162" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>8.07,0,4.45,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{TAPTPiDT.FTBchName}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text49 Ref="163" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.52,0,1.9,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{TAPTPiDT.FTCshSoldTo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <Text51 Ref="164" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.47,0,0.97,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>1</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="165" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text53 Ref="166" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.59,0,2.01,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{IIF(TAPTPiHD.FTXphVATInOrEx=="1",TAPTPiDT.FCXpdNet-TAPTPiDT.FCXpdVat,TAPTPiDT.FCXpdNet)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="167" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text55 Ref="168" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,0,2.45,0.43</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <Guid>351892bf881f4b6e96cfaca5ad1164ce</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="11" />
+              <Parent isRef="159" />
+              <Text>{IIF(TAPTPiHD.FTXphVATInOrEx=="1",TAPTPiDT.FCXpdNet-TAPTPiDT.FCXpdVat,TAPTPiDT.FCXpdNet)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="169" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text55>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>TAPTPiDT</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <GroupFooterBand1 Ref="170" type="GroupFooterBand" isKey="true">
+          <Border>Top;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.19,20.4,0.51</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text56 Ref="171" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.25,0.04,5.15,0.44</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,7</Font>
+              <Guid>a2ed50114f494908982556d840c9033e</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.2</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text56</Name>
+              <Page isRef="11" />
+              <Parent isRef="170" />
+              <Text>ราคารวมทั้งสิ้น ไม่รวมภาษีมูลค่าเพิ่ม(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text56>
+            <Text57 Ref="172" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.4,0.04,2.85,0.44</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,7</Font>
+              <Guid>380608d15617498f992698d127a6aa12</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.2</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="11" />
+              <Parent isRef="170" />
+              <Text>{Sum(IIF(TAPTPiHD.FTXphVATInOrEx=="1",TAPTPiDT.FCXpdNet-TAPTPiDT.FCXpdVat,TAPTPiDT.FCXpdNet))}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="173" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text57>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </GroupFooterBand1>
+        <RectanglePrimitive1 Ref="174" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0,21.24,20.4,2.16</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>48312a9125fd42a1bea8196a89f6de9b</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </RectanglePrimitive1>
+        <VerticalLinePrimitive1 Ref="175" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>6.4,21.22,0.0254,2.18</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="176" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>638a721d5acd4009b8f9e275e25ff007</Guid>
+          <Name>VerticalLinePrimitive1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <StartCap Ref="177" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive1>
+        <VerticalLinePrimitive2 Ref="178" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>12.2,21.27,0.0254,2.13</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="179" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>a0cce07e0d7547df83ac03abb906e164</Guid>
+          <Name>VerticalLinePrimitive2</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <StartCap Ref="180" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive2>
+        <RectanglePrimitive3 Ref="181" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0,0.4,20.4,32.18</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>4f9b3d0fcf4e4a5c823ac7577b9a96b1</Guid>
+          <Name>RectanglePrimitive3</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </RectanglePrimitive3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>03849ce689cb44c491d9dbe74bc60dfa</Guid>
+      <Margins>0.3,0.3,0.3,0.3</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+    <subPbHD Ref="182" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <GroupHeaderBand2 Ref="183" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,20.4,0.25</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{TAPTPiHD.FTXphDocNo}</Condition>
+          <Conditions isList="true" count="0" />
+          <Enabled>False</Enabled>
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeaderBand2</Name>
+          <Page isRef="182" />
+          <Parent isRef="182" />
+        </GroupHeaderBand2>
+        <DataBand2 Ref="184" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,1.45,20.4,0.41</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text26 Ref="185" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,0,7.35,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TAPTPiHD.FTSplName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text83 Ref="186" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.55,0,3.35,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text83</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>เลขที่   {TAPTPiHD.Name.FTXshRefDocNo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text83>
+            <Text84 Ref="187" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.1,0,1.75,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text84</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TAPTPiHD.Name.FDXshRefDocDateTH}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text84>
+            <Text85 Ref="188" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.9,0,2.4,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text85</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TAPTPiHD.FCXphVatable}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="189" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text85>
+            <Text86 Ref="190" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.3,0,2.15,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text86</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TAPTPiHD.FCXphVat}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="191" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <VertAlignment>Center</VertAlignment>
+            </Text86>
+            <Text87 Ref="192" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.5,0,2.85,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text87</Name>
+              <Page isRef="182" />
+              <Parent isRef="184" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TAPTPiHD.FCXphGrand}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="193" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text87>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>TAPTPiHD</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand2</Name>
+          <Page isRef="182" />
+          <Parent isRef="182" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <GroupFooterBand2 Ref="194" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.66,20.4,0.51</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text115 Ref="195" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.28,0.03,5.15,0.47</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,6</Font>
+              <Guid>a97a315efb9d43ccb86b11318df5c1e0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text115</Name>
+              <Page isRef="182" />
+              <Parent isRef="194" />
+              <Text>ราคารวมทั้งสิ้น(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text115>
+            <Text116 Ref="196" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.48,0.03,2.85,0.47</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,6</Font>
+              <Guid>66f616f80e984f2490c0c8aea32f8536</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text116</Name>
+              <Page isRef="182" />
+              <Parent isRef="194" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{Sum(DataBand2,TAPTPiHD.FCXphGrand)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="197" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Totals</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text116>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Enabled>False</Enabled>
+          <Expressions isList="true" count="0" />
+          <Name>GroupFooterBand2</Name>
+          <Page isRef="182" />
+          <Parent isRef="182" />
+        </GroupFooterBand2>
+        <ReportSummaryBand1 Ref="198" type="ReportSummaryBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanBreak>True</CanBreak>
+          <ClientRectangle>0,3.97,20.4,0.64</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text112 Ref="199" type="Text" isKey="true">
+              <Border>Right;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.3,0.04,5.15,0.48</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <Guid>873c6d2f5ffa41119cf2c7a3454303c7</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.3</LineSpacing>
+              <Margins>0,0,1,0</Margins>
+              <Name>Text112</Name>
+              <Page isRef="182" />
+              <Parent isRef="198" />
+              <Text>ราคารวมทั้งสิ้น(บาท)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text112>
+            <Text113 Ref="200" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;2;None;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.5,0.04,2.85,0.48</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <Guid>3ec64fef22fc4c1b802c72ac4adc599f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.3</LineSpacing>
+              <Margins>0,0,1,0</Margins>
+              <Name>Text113</Name>
+              <Page isRef="182" />
+              <Parent isRef="198" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{Sum(TAPTPiHD.FCXphGrand)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="201" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Totals</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text113>
+            <HorizontalLinePrimitive1 Ref="202" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.01,20.4,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="203" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="182" />
+              <Parent isRef="198" />
+              <StartCap Ref="204" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+            <HorizontalLinePrimitive2 Ref="205" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.64,20.4,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <Enabled>False</Enabled>
+              <EndCap Ref="206" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Name>HorizontalLinePrimitive2</Name>
+              <Page isRef="182" />
+              <Parent isRef="198" />
+              <StartCap Ref="207" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportSummaryBand1</Name>
+          <Page isRef="182" />
+          <Parent isRef="182" />
+        </ReportSummaryBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>633cb7846e584c41a9388c2660146790</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>subPbHD</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>22.4</PageWidth>
+      <Report isRef="0" />
+    </subPbHD>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>FRM_SMPBillThreeSectionPB</ReportAlias>
+  <ReportChanged>9/6/2022 11:01:37 AM</ReportChanged>
+  <ReportCreated>7/29/2021 1:30:56 PM</ReportCreated>
+  <ReportFile>\\192.168.0.99\forcustomer\ShareData\Dev\Nui\Work@Home\AdaPos5.0\Stimu\FitAuto\รายงานสามตอน-รับวางบิล-2022.1.4\22-09-06\FRM_SMPBillThreeSectionPB.mrt</ReportFile>
+  <ReportGuid>10084a8247734fd9861adfff7e97d24f</ReportGuid>
+  <ReportName>FRM_SMPBillThreeSectionPB</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2022.1.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class FRM_SMPBillThreeSectionPB : Stimulsoft.Report.StiReport
+    {
+        public FRM_SMPBillThreeSectionPB()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

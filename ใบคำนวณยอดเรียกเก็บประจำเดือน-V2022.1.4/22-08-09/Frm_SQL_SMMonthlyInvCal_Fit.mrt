@@ -1,0 +1,1972 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Pos Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>Pos</Alias>
+        <ConnectionStringEncrypted>9D7dSGJ4091gW6WYSklgP9Fuy8JFWXv16UnojU1x43+NWs3J5EoxbXFvnNxjZCS71Or7K8ZR88hqSYSAyAnrXoFU2aHGUEHtQEdxmXoN5+uCVsGD3ExD8HJJ0ZhjHelmg3CBzeVLAYTtTb34xBmk</ConnectionStringEncrypted>
+        <Key>a7fc5fc24543484c9c25076fa8bef47b</Key>
+        <Name>Pos</Name>
+      </Pos>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <TARTSOHD Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TARTSOHD</Alias>
+        <Columns isList="true" count="43">
+          <value>ORIGINAL,FTBchCode,FTBchCode,FTBchCode,System.String,_x0036_6e60287619d4cbeaacd24fd3def061c</value>
+          <value>ORIGINAL,FTBchName,FTBchName,FTBchName,System.String,_x0039_e3a16674aec4819b70df03340adbd10</value>
+          <value>ORIGINAL,FTCstCode,FTCstCode,FTCstCode,System.String,_x0035_280547c0c20477991dbf877abdccb95</value>
+          <value>ORIGINAL,FTXphRmk,FTXphRmk,FTXphRmk,System.String,_x0033_684c46e1d5a426d95b07e9fdffbf364</value>
+          <value>ORIGINAL,FTCstName,FTCstName,FTCstName,System.String,e062684c76c04d59ad26339cd24e8f40</value>
+          <value>ORIGINAL,FTCstTel,FTCstTel,FTCstTel,System.String,b6c6f4242e3c4e3986dd1d601e365f2c</value>
+          <value>ORIGINAL,FTCstFax,FTCstFax,FTCstFax,System.String,dc54502fcad6427d9d73833ebd98241a</value>
+          <value>ORIGINAL,FTXphDocNo,FTXphDocNo,FTXphDocNo,System.String,_x0037_cc63804eb7a4ff5bda5305d962e4726</value>
+          <value>ORIGINAL,FDXphDocDate,FDXphDocDate,FDXphDocDate,System.DateTime,b94d1f17b991493e8b0b1372d0b1b42d</value>
+          <value>ORIGINAL,FTChgDate,FTChgDate,FTChgDate,System.String,e745bb90c0564a968874951ed59451ee</value>
+          <value>ORIGINAL,FTXphDocTime,FTXphDocTime,FTXphDocTime,System.String,_x0035_fb94668e7e64c089bc6c371de3ecf48</value>
+          <value>ORIGINAL,FTCreateBy,FTCreateBy,FTCreateBy,System.String,ec84e396f9b4456797b5a6e46ff18139</value>
+          <value>ORIGINAL,FTCreName,FTCreName,FTCreName,System.String,eb0b44a378ac44cbb8185c9116351f1f</value>
+          <value>ORIGINAL,FTCreCode,FTCreCode,FTCreCode,System.String,_x0031_a04d4c586a24cfa87acad8761d01ba9</value>
+          <value>ORIGINAL,FTDptCode,FTDptCode,FTDptCode,System.String,ba20e930620c49a980e88f0df546e88c</value>
+          <value>ORIGINAL,FTDptName,FTDptName,FTDptName,System.String,_x0035_a1198571f264a12be179cc24c471907</value>
+          <value>ORIGINAL,FTUsrCode,FTUsrCode,FTUsrCode,System.String,_x0033_a04e2a3dcaa4b6090f8953a862e1039</value>
+          <value>ORIGINAL,FTUsrName,FTUsrName,FTUsrName,System.String,_x0038_8bee273c5c3472e9fe67b6d59c9e148</value>
+          <value>ORIGINAL,FTXphStaDoc,FTXphStaDoc,FTXphStaDoc,System.String,d86296d4a6634672bc30e2e7ae6fb33f</value>
+          <value>ORIGINAL,FTXphApvCode,FTXphApvCode,FTXphApvCode,System.String,f88e86bba6d34bb9bd7320d3ea49b442</value>
+          <value>ORIGINAL,FTUsrCodeApp,FTUsrCodeApp,FTUsrCodeApp,System.String,ba2d4abc634c4510a9a6dec8b51267ad</value>
+          <value>ORIGINAL,FTUsrNameApp,FTUsrNameApp,FTUsrNameApp,System.String,_x0030_fc218846f54438da33857f5bc037b63</value>
+          <value>ORIGINAL,FTXphCtrName,FTXphCtrName,FTXphCtrName,System.String,f456a3f9c5724dc98239e168fcd0d01d</value>
+          <value>ORIGINAL,FTXphDueDate,FTXphDueDate,FTXphDueDate,System.String,e8b35b27a49b4ae8a10f37ec27243ca2</value>
+          <value>ORIGINAL,FTXphCond,FTXphCond,FTXphCond,System.String,e7d9394a09d9419b8afe4921ec6bb8cb</value>
+          <value>ORIGINAL,FTXphDstPaid,FTXphDstPaid,FTXphDstPaid,System.String,_x0039_98c44e9465c46b58aef55fafe5a081b</value>
+          <value>ORIGINAL,FTXphCshOrCrd,FTXphCshOrCrd,FTXphCshOrCrd,System.String,_x0032_9aaf72e54b7436294e4a21cdf76babb</value>
+          <value>ORIGINAL,FNXphCrTerm,FNXphCrTerm,FNXphCrTerm,System.Int32,_x0036_1f7a38bfbc4474687aff014bf2761d8</value>
+          <value>ORIGINAL,FTXphCtrCode,FTXphCtrCode,FTXphCtrCode,System.String,_x0039_34f92ee14364a4794e826c0076d259a</value>
+          <value>ORIGINAL,FTCtrName,FTCtrName,FTCtrName,System.String,d6ad9d9414c74f14ac1fada140488efc</value>
+          <value>ORIGINAL,FCXphTotal,FCXphTotal,FCXphTotal,System.Decimal,d7e87913ab0648dfbc16383bf407a4cb</value>
+          <value>ORIGINAL,MonthYear,MonthYear,MonthYear,System.String,_x0039_5868a7f03f1402d97080a62bab60365</value>
+          <value>ORIGINAL,MonthSale,MonthSale,MonthSale,System.String,bff84ad6d08a4a4ab385523dc31f6f7f</value>
+          <value>ORIGINAL,Duedate,Duedate,Duedate,System.String,c30b098ed9434a39a9995ea3d08feed6</value>
+          <value>ORIGINAL,FCXphDis,FCXphDis,FCXphDis,System.Decimal,_x0037_d0ee807713f42eeae277733a5bd3b2a</value>
+          <value>ORIGINAL,FCXphChg,FCXphChg,FCXphChg,System.Decimal,_x0035_4912cefd6a443c185c01805ad13b4fa</value>
+          <value>ORIGINAL,FCXphVat,FCXphVat,FCXphVat,System.Decimal,_x0032_bc8c9486092427995d50bf31e5e6140</value>
+          <value>ORIGINAL,FCXphVatable,FCXphVatable,FCXphVatable,System.Decimal,_x0030_c244c76f6be42bc8d9c634d359d63f8</value>
+          <value>ORIGINAL,FCXphGrand,FCXphGrand,FCXphGrand,System.Decimal,_x0031_932c54fcd6649e792c620fe38711cee</value>
+          <value>ORIGINAL,FTBbkCode,FTBbkCode,FTBbkCode,System.String,f34185c782b544489c10cbd1e754d6d3</value>
+          <value>ORIGINAL,FTBbkName,FTBbkName,FTBbkName,System.String,ad6c1d0cce52431cb62211fe56d7e32e</value>
+          <value>ORIGINAL,FTAgnCode,FTAgnCode,FTAgnCode,System.String,_x0034_03c21af59314db2b631b74210b38945</value>
+          <value>ORIGINAL,FTAgnName,FTAgnName,FTAgnName,System.String,c5b5a12b42184a5abe7774db7f3d57a3</value>
+        </Columns>
+        <CommandTimeout>5000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>6557a47e574e40bdadf2b72a45f78488</Key>
+        <Name>TARTSOHD</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SET LANGUAGE thai;
+SELECT TOP 1 HD.FTBchCode,BchL.FTBchName,ISNULL(HD.FTCstCode,'') AS FTCstCode,ISNULL(FTXphRmk,'') AS FTXphRmk,
+	ISNULL(Cst_L.FTCstName,'') AS FTCstName,ISNULL(Cst.FTCstTel,'') AS FTCstTel,ISNULL(Cst.FTCstFax,'') AS FTCstFax,
+	HD.FTXphDocNo,FDXphDocDate,CONVERT(VARCHAR(10),FDXphDocDate,103) AS FTChgDate,CONVERT(VARCHAR(10),FDXphDocDate,8) AS FTXphDocTime,
+	HD.FTCreateBy,UsrCre_L.FTUsrName AS FTCreName,
+	UsrCre_L.FTUsrCode AS FTCreCode,
+	ISNULL(HD.FTDptCode,'') AS FTDptCode,Dpl_L.FTDptName,
+	ISNULL(HD.FTUsrCode,'') AS FTUsrCode,Usr_L.FTUsrName,	
+	ISNULL(FTXphStaDoc,'') AS FTXphStaDoc,
+	ISNULL(HD.FTXphApvCode,'') AS FTXphApvCode,
+	ISNULL(UsrApvL.FTUsrCode,'') AS FTUsrCodeApp,
+	ISNULL(UsrApvL.FTUsrName,'') AS FTUsrNameApp,
+	ISNULL(SHD.FTXphCtrName,'') AS FTXphCtrName,	
+	CONVERT(VARCHAR(10),HD.FDXphDueDate,103) AS FTXphDueDate,HD.FTXphCond,
+	SHD.FTXphDstPaid,SHD.FTXphCshOrCrd,SHD.FNXphCrTerm,SHD.FTXphCtrName AS FTXphCtrCode,
+	SHD.FTXphCtrName AS FTCtrName,
+	ISNULL(FCXphTotal,0) AS FCXphTotal,
+    CONVERT(VARCHAR(2),GETDATE(),103) + '  ' + DATENAME(MONTH, GETDATE()) + ' ' + CONVERT(VARCHAR(4),DATENAME(YEAR, GETDATE())+543) AS 'MonthYear',
+    DATENAME(MONTH, FDXphDocDate) + ' ' + CONVERT(VARCHAR(4),DATENAME(YEAR, FDXphDocDate)+543) AS 'MonthSale',
+    CONVERT(VARCHAR(2),FDXphDueDate,103) + '  ' + DATENAME(MONTH, FDXphDueDate) + ' ' + CONVERT(VARCHAR(4),DATENAME(YEAR, FDXphDueDate)+543) AS 'Duedate',
+	ISNULL(FCXphDis,0) AS FCXphDis,ISNULL(FCXphChg,0) AS FCXphChg,
+	ISNULL(FCXphVat,0) AS FCXphVat,ISNULL(FCXphVatable,0) AS FCXphVatable ,ISNULL(FCXphGrand,0) AS FCXphGrand,HD.FTBbkCode,BnL.FTBbkName,
+	HD.FTAgnCode,AgnL.FTAgnName
+	FROM TACTRMHD  HD WITH (NOLOCK)  LEFT JOIN 
+     TACTRMHDCst SHD WITH (NOLOCK) ON HD.FTBchCode = SHD.FTBchCode AND HD.FTXphDocNo = SHD.FTXphDocNo 
+	 LEFT JOIN  TCNMBranch_L BchL WITH (NOLOCK) ON HD.FTBchCode = BchL.FTBchCode AND BchL.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMCst Cst WITH (NOLOCK) ON HD.FTCstCode = Cst.FTCstCode LEFT JOIN
+	 TCNMCst_L Cst_L WITH (NOLOCK) ON HD.FTCstCode = Cst_L.FTCstCode AND Cst_L.FNLngID =  @pnLanguage LEFT JOIN
+     TCNMCst_L CtrCst_L WITH (NOLOCK) ON SHD.FTXphCtrName = CtrCst_L.FTCstCode AND CtrCst_L.FNLngID =  @pnLanguage LEFT JOIN
+     TCNMUsrDepart_L Dpl_L WITH (NOLOCK) ON  HD.FTDptCode = Dpl_L.FTDptCode AND Dpl_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L Usr_L  WITH (NOLOCK) ON HD.FTUsrCode = Usr_L.FTUsrCode AND Usr_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L UsrCre_L  WITH (NOLOCK) ON HD.FTCreateBy = UsrCre_L.FTUsrCode AND UsrCre_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L UsrApvL  WITH (NOLOCK) ON HD.FTXphApvCode = UsrApvL.FTUsrCode AND UsrApvL.FNLngID =  @pnLanguage LEFT JOIN
+	 TFNMBookBank_L BnL WITH (NOLOCK) ON HD.FTBbkCode = BnL.FTBbkCode AND HD.FTBchCode = BnL.FTBchCode and BnL.FNLngID =  @pnLanguage 
+LEFT JOIN
+	 TCNMAgency_L AgnL  WITH (NOLOCK) ON HD.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID =  @pnLanguage
+WHERE HD.FTXphDocNo = @ptDocNo AND HD.FTBchCode = @ptDocBch AND HD.FTXphDocType = '1'	</SqlCommand>
+      </TARTSOHD>
+      <Company Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Company</Alias>
+        <Columns isList="true" count="22">
+          <value>ORIGINAL,FTCompName,FTCompName,FTCompName,System.String,_x0031_d9426b1dc454b68a52cc82d5a6d78b8</value>
+          <value>ORIGINAL,FTBchCode,FTBchCode,FTBchCode,System.String,_x0034_c644166a1ed4430a96799aad9f8d9f6</value>
+          <value>ORIGINAL,FTAddrType,FTAddrType,FTAddrType,System.String,_x0039_a313bbf36ba4db480ed078b1cfe2784</value>
+          <value>ORIGINAL,FTAddName,FTAddName,FTAddName,System.String,_x0033_8261e09976d4e379d39b1b79f76bb69</value>
+          <value>ORIGINAL,FTBchName,FTBchName,FTBchName,System.String,b14a1533546e4d37abac31b6582e66d4</value>
+          <value>ORIGINAL,FTAddV1No,FTAddV1No,FTAddV1No,System.String,b1690c3805a5433bbccfb28b1dcb920a</value>
+          <value>ORIGINAL,FTAddV1Soi,FTAddV1Soi,FTAddV1Soi,System.String,_x0034_709333fb2544336ae97729abd132d43</value>
+          <value>ORIGINAL,FTAddV1Village,FTAddV1Village,FTAddV1Village,System.String,_x0035_dff40202df543b1bea637c1d5af30b8</value>
+          <value>ORIGINAL,FTAddV1Road,FTAddV1Road,FTAddV1Road,System.String,_x0030_68a070a9c304a07ae410cfd1a1b6dd6</value>
+          <value>ORIGINAL,FTAddV1SubDist,FTAddV1SubDist,FTAddV1SubDist,System.String,_x0033_f07f6e423fa44d2a727e0e74fe8af67</value>
+          <value>ORIGINAL,FTSudName,FTSudName,FTSudName,System.String,ec3162bf09b248778f2e17cda06f98ad</value>
+          <value>ORIGINAL,FTAddV1DstCode,FTAddV1DstCode,FTAddV1DstCode,System.String,_x0035_359c5a0fd604202b41e3384798c9bfe</value>
+          <value>ORIGINAL,FTDstName,FTDstName,FTDstName,System.String,e228824c35944e2b864675fcf4df08ec</value>
+          <value>ORIGINAL,FTAddV1PvnCode,FTAddV1PvnCode,FTAddV1PvnCode,System.String,_x0036_c68749a86444c16b568651a5f8374f9</value>
+          <value>ORIGINAL,FTPvnName,FTPvnName,FTPvnName,System.String,_x0036_3fc51ed939448a482279ca6c5c880e7</value>
+          <value>ORIGINAL,FTAddV1PostCode,FTAddV1PostCode,FTAddV1PostCode,System.String,_x0034_152f41535ab4d48acb8823e5de83ad6</value>
+          <value>ORIGINAL,FTAddV2Desc1,FTAddV2Desc1,FTAddV2Desc1,System.String,_x0032_cca54cfaaa24882bc5897f133e029e4</value>
+          <value>ORIGINAL,FTAddV2Desc2,FTAddV2Desc2,FTAddV2Desc2,System.String,_x0037_9826fca77044e7c8da947bf3a8a8c2e</value>
+          <value>ORIGINAL,FTAddTel,FTAddTel,FTAddTel,System.String,_x0037_8e3f11ee08c4ec8bec7805d968df0cd</value>
+          <value>ORIGINAL,FTAddFax,FTAddFax,FTAddFax,System.String,e10a26bae91f422dbffff6997c3d006f</value>
+          <value>ORIGINAL,FTAddWebsite,FTAddWebsite,FTAddWebsite,System.String,_x0039_50dd03042934e30893cd8ab76bfa0ca</value>
+          <value>ORIGINAL,FTAddTaxNo,FTAddTaxNo,FTAddTaxNo,System.String,d182d113b945493db7bf5fb2bb7a71fd</value>
+        </Columns>
+        <CommandTimeout>5000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>a5dc827047c14e47822e195841963e6e</Key>
+        <Name>Company</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="5">
+          <value>ptCompCode,SP_tCompCode,22,5</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>pnAddSeq,SP_nAddSeq,8,3</value>
+          <value>ptCmpBch,SP_tCmpBch,22,5</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeMer,'') THEN FTMerName ELSE 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeAgn,'') THEN FTAgnName ELSE  
+		CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeBch,'') THEN FTCmpName ELSE 
+			CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeCmp,'') THEN FTCmpName ELSE 
+(SELECT CmpL.FTCmpName 
+	FROM TCNMComp Cmp  WITH (NOLOCK) LEFT JOIN
+				 TCNMComp_L CmpL  WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND FNLngID = @pnLanguage
+				 WHERE FTBchCode = @ptCompCode)   
+			END
+		END
+	END
+END
+AS 	FTCompName,FTBchCode,
+FTAddrType,FTAddName,(SELECT FTBchName FROM TCNMBranch_L  WITH (NOLOCK) WHERE  FTBchCode = @ptDocBch AND FNLngID = @pnLanguage ) AS FTBchName,
+FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,FTSudName,FTAddV1DstCode,FTDstName,FTAddV1PvnCode,FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+FTAddTel,FTAddFax,FTAddWebsite  ,FTAddTaxNo
+FROM
+(SELECT BchMst.FTBchCode, AddrL.FTAddRefCode,FTAddRefCodeMer,Mer.FTMerName,Agn.FTAddRefCodeAgn,Agn.FTAgnName,Bch.FTAddRefCodeBch,
+	Bch.FTCmpName AS FTCmpNameBch,FTAddRefCodeCmp,
+	(SELECT FTCmpName FROM TCNMComp_L WHERE FTCmpCode = @ptCompCode AND FNLngID = @pnLanguage) AS FTCmpName,
+	FTAddVersion AS FTAddrType,AddrL.FTAddName,
+	FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,SDstL.FTSudName,FTAddV1DstCode,DstL.FTDstName,FTAddV1PvnCode,PvnL.FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+	AddrL.FTAddTel,AddrL.FTAddFax,AddrL.FTAddWebsite  ,FTAddTaxNo
+	FROM TCNMBranch BchMst  WITH (NOLOCK) LEFT JOIN 
+	TCNMAddress_L AddrL  WITH (NOLOCK) ON BchMst.FTBchCode = AddrL.FTAddRefCode
+	 LEFT JOIN
+			 (
+SELECT FTBchCode,Bch.FTMerCode,FTMerName,FTAddRefCode AS FTAddRefCodeMer
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+				INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTMerCode = AddrL.FTAddRefCode AND AddrL.FTAddGrpType = '7' AND AddrL.FTAddRefNo = '1'
+				LEFT JOIN TCNMMerChant_L MerL WITH (NOLOCK) ON Bch.FTMerCode = MerL.FTMerCode AND MerL.FNLngID = @pnLanguage
+				WHERE FTBchCode = @ptCmpBch  
+			 ) Mer ON AddrL.FTAddRefCode  = Mer.FTAddRefCodeMer 
+
+	 LEFT JOIN
+			
+(SELECT FTBchCode,Agn.FTAgnCode,AgnL.FTAgnName,FTAddRefCode AS FTAddRefCodeAgn
+	FROM  TCNMAgency Agn WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Agn.FTAgnCode = AddrL.FTAddRefCode  AND  AddrL.FTAddGrpType = '5' 
+			 LEFT JOIN TCNMAgency_L AgnL WITH (NOLOCK) ON Agn.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID = @pnLanguage
+			 WHERE AddrL.FTAddRefNo = '1'
+			) Agn  ON AddrL.FTAddRefCode  = Agn.FTAddRefCodeAgn
+
+	 LEFT JOIN
+		
+(SELECT Bch.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeBch
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+			 LEFT JOIN TCNMComp Cmp WITH (NOLOCK) ON Cmp.FTBchCode = Bch.FTBchCode 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Bch.FTBchCode = @ptCmpBch 
+			) Bch ON  AddrL.FTAddRefCode  = Bch.FTAddRefCodeBch
+	 LEFT JOIN
+		
+(SELECT Cmp.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeCmp
+	FROM  TCNMComp Cmp WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Cmp.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Cmp.FTBchCode = @ptCmpBch 
+			) Cmp ON  AddrL.FTAddRefCode  = Cmp.FTAddRefCodeCmp
+	 LEFT JOIN TCNMProvince_L PvnL WITH (NoLock) ON  AddrL.FTAddV1PvnCode = PvnL.FTPvnCode AND PvnL.FNLngID = @pnLanguage
+	 LEFT JOIN TCNMDistrict_L DstL WITH (NoLock) ON  AddrL.FTAddV1DstCode = DstL.FTDstCode AND DstL.FNLngID = @pnLanguage		
+	 LEFT JOIN TCNMSubDistrict_L SDstL WITH (NoLock) ON  AddrL.FTAddV1SubDist = SDstL.FTSudCode AND SDstL.FNLngID = @pnLanguage		
+	 WHERE BchMst.FTBchCode = @ptCmpBch OR
+	    (AddrL.FTAddRefCode = Mer.FTMerCode OR AddrL.FTAddRefCode = Agn.FTAgnCode OR AddrL.FTAddRefCode = Bch.FTBchcode OR AddrL.FTAddRefCode = Cmp.FTBchcode )
+) AddrSum</SqlCommand>
+      </Company>
+      <TARTSODT Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TARTSODT</Alias>
+        <Columns isList="true" count="12">
+          <value>FTAgnCode,System.String</value>
+          <value>FTBchCode,System.String</value>
+          <value>FTXphDocNo,System.String</value>
+          <value>FNXpdDesc,System.String</value>
+          <value>FCXpdTotal,System.Decimal</value>
+          <value>FCVatRate,System.Decimal</value>
+          <value>ORIGINAL,FCXpdVat,FCXpdVat,FCXpdVat,System.Decimal,_x0038_134d8acb8b547d38be9818e5a533cb4</value>
+          <value>ORIGINAL,FCXpdVatable,FCXpdVatable,FCXpdVatable,System.Decimal,cc2cf6cf4289479c8e98b52e5913addc</value>
+          <value>ORIGINAL,FCXpdGrand,FCXpdGrand,FCXpdGrand,System.Decimal,f354e077398f4d7b912bb522deb03c17</value>
+          <value>ORIGINAL,FCXpdInvLeft,FCXpdInvLeft,FCXpdInvLeft,System.Double,_x0036_3a9110c0af04307801d99fbe45b5a87</value>
+          <value>FCXpdInvPaid,System.Decimal</value>
+          <value>FTXpdRmk,System.String</value>
+        </Columns>
+        <CommandTimeout>10000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>e196035517ea43d99b68847895a2dc57</Key>
+        <Name>TARTSODT</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SET LANGUAGE thai;
+SELECT FTAgnCode, FTBchCode, FTXphDocNo, 
+	FNXpdDesc, FCXpdTotal, FCVatRate, FCXpdVat, FCXpdVatable, FCXpdGrand, FCXpdInvLeft, FCXpdInvPaid, FTXpdRmk
+	FROM     TACTRMDT DT
+WHERE DT.FTXphDocNo = @ptDocNo AND DT.FTBchCode = @ptDocBch </SqlCommand>
+      </TARTSODT>
+      <TPSTSalRCWHT Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TPSTSalRCWHT</Alias>
+        <Columns isList="true" count="2">
+          <value>FTXphDocNo,System.String</value>
+          <value>FCXrcNetWHT,System.Decimal</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>723a621b93384761834e6557a942e5af</Key>
+        <Name>TPSTSalRCWHT</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="2">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT FTXphDocNo,SUM(ISNULL(FCXrcNetWHT,0)) AS FCXrcNetWHT
+	FROM
+(SELECT DISTINCT DT.FTXphDocNo,ISNULL(FCXrcNetWHT,0) AS FCXrcNetWHT FROM TACTSbDT DT WITH (NOLOCK) 
+	 LEFT JOIN
+	 (
+SELECT FTBchCode, FTXshDocNo,FTPdtCode, FTXsdPdtName, FCXsdNetAfHD, FCXsdWhtAmt 
+	FROM TPSTSalDT  WITH (NOLOCK) 
+	 ) SalDT ON DT.FTXpdRefDocNo = SalDT.FTXshDocNo
+	 LEFT JOIN
+	 (
+SELECT  FTBchCode, FTXshDocNo, RC.FTRcvCode, ISNULL(FCXrcNet,0) AS FCXrcNetWHT
+	FROM  TPSTSalRC RC WITH (NOLOCK)  
+		 INNER JOIN TFNMRcv RCV  WITH (NOLOCK)  ON
+			RC.FTRcvCode = RCV.FTRcvCode
+		 WHERE RCV.FTFmtCode='027'
+	 ) RC ON SalDT.FTBchCode = RC.FTBchCode AND SalDT.FTXshDocNo = RC.FTXshDocNo
+	 WHERE DT.FTXphDocNo = @ptDocNo AND DT.FTBchCode = @ptDocBch
+	) RC
+GROUP BY RC.FTXphDocNo</SqlCommand>
+      </TPSTSalRCWHT>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="8">
+      <value>,SP_nLang,SP_nLang,,System.String,_x0031_,False,False,False,False,,_x0039_8fd95f43d3e488e81210e35027f63c1</value>
+      <value>,nLanguage,nLanguage,,System.Int32,_x0031_,False,False,False,False,,_x0039_8035005e15b40b2a830ee18b958fa82,True</value>
+      <value>,SP_tCompCode,SP_tCompCode,,System.String,_x0030_0001,False,False,False,False,,_x0039_7cc4d93ef174c03bead690b6df6ff63,True</value>
+      <value>,SP_tCmpBch,SP_tCmpBch,,System.String,_x0030_0001,False,False,False,False,,d891bde0584b4fda9942156d1b9b3a7c,True</value>
+      <value>,SP_tDocNo,SP_tDocNo,,System.String,RM10012220000001,False,False,False,False,,d4a72c0b73034a81ae3b4d0d91c28499,True</value>
+      <value>,SP_nAddSeq,SP_nAddSeq,,System.Int32,_x0031_0149,False,False,False,False,,_x0032_d2e019dd8dd429ba48fdbdc7e41b81e,True</value>
+      <value>,SP_tDocBch,SP_tDocBch,,System.String,_x0031_0012,False,False,False,False,,e0bb2a5a297d4b7c883647bcdb59e77a,True</value>
+      <value>,SP_tGrdStr,SP_tGrdStr,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>b2e582f01d0b43d0b4652664e1e57285</Key>
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="10">
+        <PageHeader1 Ref="8" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,20.4,8.66</ClientRectangle>
+          <Components isList="true" count="7">
+            <Container3 Ref="9" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.8,0.02,17.61,1.21</ClientRectangle>
+              <Components isList="true" count="3">
+                <Header Ref="10" type="Text" isKey="true">
+                  <Alias>Header</Alias>
+                  <Brush>Transparent</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.32,0.54,8.85,0.63</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,17,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Header</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Text>ใบคำนวณยอดเรียกเก็บเงินประจำเดือน</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Bottom</VertAlignment>
+                </Header>
+                <Text22 Ref="11" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>12.28,0.3,1.76,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9,Bold</Font>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text22</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Text>สาขาที่
+Branch No</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text22>
+                <Text23 Ref="12" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>14.29,0.3,2.24,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text23</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Text>{IIF(TARTSOHD.FTCstBusiness=="1",IIF(TARTSOHD.FTCstBchHQ=="1","สำนักงานใหญ่",TARTSOHD.FTCstBchCode),"")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text23>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Container3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+            </Container3>
+            <Panel1 Ref="13" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,7.77,20.4,0.75</ClientRectangle>
+              <Components isList="true" count="9">
+                <Text11 Ref="14" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.32,0.09,6.6,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,12,Bold</Font>
+                  <Guid>67ce455e5b094092b4c9a9e5be13b980</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <Text>รายการ</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text3 Ref="15" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>7,0.09,5.04,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,12,Bold</Font>
+                  <Guid>c19a1ae5679e4e528b686487727b42da</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <Text>ยอดขายไม่รวม VAT</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+                <Text4 Ref="16" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>12.04,0.09,2.48,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,12,Bold</Font>
+                  <Guid>e9929b52c8a142569779d44d3fefab36</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <Text>อัตราเรียกเก็บ (%)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text6 Ref="17" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>14.64,0.09,5.12,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,12,Bold</Font>
+                  <Guid>d32eedb5f86b4f8a90d05724ced5c4b0</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <Text>จำนวนเงิน (บาท)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+                <StartPointPrimitive2 Ref="18" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>0.15,0.05,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive2</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <ReferenceToGuid>89106e34c9c340e2ac1b54ef762145cf</ReferenceToGuid>
+                </StartPointPrimitive2>
+                <HorizontalLine2 Ref="19" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.15,0.7,19.7,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="20" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLine2</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <StartCap Ref="21" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLine2>
+                <StartPointPrimitive1 Ref="22" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>6.96,0.07,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <ReferenceToGuid>cc2bc9afcd8a42b98f942ca1c808da75</ReferenceToGuid>
+                </StartPointPrimitive1>
+                <StartPointPrimitive3 Ref="23" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>12.04,0.07,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive3</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <ReferenceToGuid>4fddd9b102214f0f8a858ac6d7604cf3</ReferenceToGuid>
+                </StartPointPrimitive3>
+                <StartPointPrimitive4 Ref="24" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>14.56,0.07,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive4</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="13" />
+                  <ReferenceToGuid>0a3dada6b82544d58e59872906235d41</ReferenceToGuid>
+                </StartPointPrimitive4>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Panel1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+            </Panel1>
+            <Image1 Ref="25" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.32,0.32,2.61,0.84</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <IconColor>68, 114, 196</IconColor>
+              <ImageBytes>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</ImageBytes>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Stretch>True</Stretch>
+            </Image1>
+            <Panel5 Ref="26" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0.04,2.68,20.36,4.95</ClientRectangle>
+              <Components isList="true" count="27">
+                <Text5 Ref="27" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[178:215:232]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.16,0.64,6.8,0.68</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>8e8a02d78ac94dcb84ac16554ea7f3bd</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>รายการ</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+                <Text14 Ref="28" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[178:215:232]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>6.92,0.64,6.96,0.68</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>95ff4ec6e74045e1a102913aa2f772a8</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text14</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>จำนวนเงิน (บาท)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text14>
+                <Text15 Ref="29" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,0.16,5.36,0.46</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,12,Bold</Font>
+                  <Guid>521317bec726450891c93a8c6c5e7462</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text15</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>วันที่พิมพ์ {TARTSOHD.MonthYear}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text15>
+                <Text16 Ref="30" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.2,1.32,6.72,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>bc8b07423f8d4197ad554b5cd20bfc37</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text16</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>ยอดขายรายเดือน(รวม Vat)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text16>
+                <Text17 Ref="31" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.2,1.96,6.72,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>7adefd7c941a459c976e0395a8f096d0</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text17</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>หัก ส่วนลด</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text17>
+                <Text24 Ref="32" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.2,2.56,6.72,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>31897c74fa434bcbaf5ae986d2e8dede</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text24</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>ยอดขาย หลังหักส่วนลด</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text24>
+                <Text25 Ref="33" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.2,3.2,6.72,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>e7b95b3e3e1845a9bf375ff6a92a6300</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text25</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>หัก Vat 7%</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text25>
+                <Text26 Ref="34" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[191:191:191]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.12,3.84,6.84,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13</Font>
+                  <Guid>663b05143aea4cffad6890f28dc659a8</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text26</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>รวมยอดขายไม่รวม Vat </Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text26>
+                <Text27 Ref="35" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,0.64,5.28,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>d761301513104706b669ca13b5e8313f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text27</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>สำหรับยอดขายงวดเดือน</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text27>
+                <Text28 Ref="36" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[216:216:216]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,1.24,5.28,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>3e01a811dcab4c49aa01b8b2529c1640</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text28</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.MonthSale}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text28>
+                <Text29 Ref="37" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,1.84,5.28,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>7aee87725fed40c998eb25d8b31c996c</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text29</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>วันที่ครบกำหนดชำระ</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text29>
+                <Text30 Ref="38" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[216:216:216]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,2.44,5.28,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>d412a96f87f4446c930fd77821a62ece</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text30</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.Duedate}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text30>
+                <Text49 Ref="39" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <ClientRectangle>7.12,1.32,6.56,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>83fcb10987544abdb6fd46d100751701</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text49</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.FCXphGrand}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="40" type="NumberFormat" isKey="true">
+                    <DecimalDigits>2</DecimalDigits>
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                    <State>DecimalDigits, DecimalSeparator</State>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text49>
+                <Text50 Ref="41" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>14.52,3.04,5.28,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>b539f2fab6db48bc9f2d1767614136df</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text50</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>ชำระโดย</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text50>
+                <Text51 Ref="42" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[216:216:216]</Brush>
+                  <ClientRectangle>14.52,3.64,5.28,1.22</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>a4003de8ef03444eaea31d697cc58a26</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text51</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Text>DIRECT APPROVE
+{TARTSOHD.FTBbkName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text51>
+                <Text7 Ref="43" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <ClientRectangle>7.12,1.96,6.56,0.58</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>656d2074e1d64c2c8fe11a820a21e76b</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.FCXphChg-TARTSOHD.FCXphDis}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="44" type="NumberFormat" isKey="true">
+                    <DecimalDigits>2</DecimalDigits>
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                    <State>DecimalDigits, DecimalSeparator</State>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text9 Ref="45" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <ClientRectangle>7.12,2.56,6.56,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>17cb27d432ca4bf69c55dd2da8dd17c7</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.FCXphGrand +(TARTSOHD.FCXphChg-TARTSOHD.FCXphDis)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="46" type="NumberFormat" isKey="true">
+                    <DecimalDigits>2</DecimalDigits>
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                    <State>DecimalDigits, DecimalSeparator</State>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Text10 Ref="47" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <ClientRectangle>7.12,3.2,6.56,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>90c985051c4e4f1889d4beb5197324a1</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text10</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.FCXphVat}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="48" type="NumberFormat" isKey="true">
+                    <DecimalDigits>2</DecimalDigits>
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                    <State>DecimalDigits, DecimalSeparator</State>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text10>
+                <Text12 Ref="49" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>[255:255:255]</Brush>
+                  <CanBreak>True</CanBreak>
+                  <ClientRectangle>7.12,3.84,6.56,0.62</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Angsana New,13,Bold</Font>
+                  <Guid>261c298be7424f87a28d626d0468650c</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0.5,0</Margins>
+                  <Name>Text12</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Printable>False</Printable>
+                  <Text>{TARTSOHD.FCXphGrand +(TARTSOHD.FCXphChg-TARTSOHD.FCXphDis)-TARTSOHD.FCXphVat}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="50" type="NumberFormat" isKey="true">
+                    <DecimalDigits>2</DecimalDigits>
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                    <State>DecimalDigits, DecimalSeparator</State>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text12>
+                <StartPointPrimitive9 Ref="51" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>6.92,0.64,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive9</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <ReferenceToGuid>99971d42b60440dd8a037246629a5bde</ReferenceToGuid>
+                </StartPointPrimitive9>
+                <EndPointPrimitive9 Ref="52" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                  <ClientRectangle>6.92,4.48,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>EndPointPrimitive9</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <ReferenceToGuid>99971d42b60440dd8a037246629a5bde</ReferenceToGuid>
+                </EndPointPrimitive9>
+                <StartPointPrimitive8 Ref="53" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>0.12,0.64,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive8</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <ReferenceToGuid>d18a8b3611ba4a31a6da9b6444b2c69d</ReferenceToGuid>
+                </StartPointPrimitive8>
+                <EndPointPrimitive8 Ref="54" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                  <ClientRectangle>13.88,4.48,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>EndPointPrimitive8</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <ReferenceToGuid>d18a8b3611ba4a31a6da9b6444b2c69d</ReferenceToGuid>
+                </EndPointPrimitive8>
+                <HorizontalLinePrimitive3 Ref="55" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.12,1.96,13.76,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="56" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive3</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <StartCap Ref="57" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive3>
+                <HorizontalLinePrimitive4 Ref="58" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.12,2.56,13.76,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="59" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive4</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <StartCap Ref="60" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive4>
+                <HorizontalLinePrimitive5 Ref="61" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.12,3.2,13.76,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="62" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive5</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <StartCap Ref="63" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive5>
+                <HorizontalLinePrimitive6 Ref="64" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.12,3.84,13.76,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="65" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive6</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <StartCap Ref="66" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive6>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Panel5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+            </Panel5>
+            <Text1 Ref="67" type="Text" isKey="true">
+              <Border>None;Black;1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0.2,1.24,19.68,1.36</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,16,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text1>
+            <Text21 Ref="68" type="Text" isKey="true">
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>2.5,1.36,16,0.74</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,15,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>ชื่อนิติบุคคล: {TARTSOHD.FTAgnName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text2 Ref="69" type="Text" isKey="true">
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>2.5,2.04,16,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>ชื่อร้านสาขา {TARTSOHD.FTBchCode} : {TARTSOHD.FTBchName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageHeader1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </PageHeader1>
+        <PageFooter1 Ref="70" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,22.6,20.4,18</ClientRectangle>
+          <Components isList="true" count="16">
+            <Text34 Ref="71" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>0.12,1.32,19.72,0.64</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="72" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text37 Ref="73" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.96,0.1,4.72,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>{Sum(GroupHeader1,TARTSODT.FCXpdGrand)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="74" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="75" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.1,1.96,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>รวม</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="76" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text13 Ref="77" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.72,7.64,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>ภาษีมูลค่าเพิ่ม ({String.Format("{0:0}", TARTSODT.FCVatRate)}%)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="78" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text19 Ref="79" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.96,0.72,4.72,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>{Sum(GroupHeader1,TARTSODT.FCXpdVat)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="80" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text20 Ref="81" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>14.96,1.32,4.72,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>{Sum(GroupHeader1,TARTSODT.FCXpdGrand)+Sum(GroupHeader1,TARTSODT.FCXpdVat)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="82" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text32 Ref="83" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>0.2,1.32,14.76,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13,Bold</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>จำนวนเงินรวม</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="84" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text35 Ref="85" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,2.32,19.64,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>&lt;u&gt;กรณีร้านค้ามีรายการหักภาษี ณ ที่จ่าย&lt;/u&gt; ขอให้ร้านค้าออกหนังสือรับรองหัก ณ ที่จ่าย ส่งคืนที่ &lt;u&gt;ส่วนรับง่ายเงินในประเทศ (ธุรกิจน้ำมัน)&lt;u&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="86" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="87" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,2.92,19.64,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <Text>ด้วยทุกครั้ง (ตามซองไปรษณีย์ตอบรับที่แนบไปให้)&lt;letter-spacing="1"&gt; &lt;/letter-spacing&gt; &lt;background-color="Yellow"&gt;  ***ภายในวันที่ 5 ของเดือน*** โดยต้องประทับตราบริษัท และลงนามกำกับด้วยทุกครั้ง&lt;/background-color&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="88" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <EndPointPrimitive2 Ref="89" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.85,1.94,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <ReferenceToGuid>89106e34c9c340e2ac1b54ef762145cf</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <HorizontalLine3 Ref="90" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.15,0.1,19.7,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="91" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>9141c63f61c04eda8d2c42275830d854</Guid>
+              <Name>HorizontalLine3</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <StartCap Ref="92" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLine3>
+            <HorizontalLinePrimitive1 Ref="93" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.16,0.7,19.7,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="94" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>5f964bd0afe44c2bacfa80e66ff98d01</Guid>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <StartCap Ref="95" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+            <EndPointPrimitive1 Ref="96" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>6.96,0.09,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <ReferenceToGuid>cc2bc9afcd8a42b98f942ca1c808da75</ReferenceToGuid>
+            </EndPointPrimitive1>
+            <EndPointPrimitive4 Ref="97" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>14.56,1.93,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <ReferenceToGuid>0a3dada6b82544d58e59872906235d41</ReferenceToGuid>
+            </EndPointPrimitive4>
+            <EndPointPrimitive3 Ref="98" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>12.04,0.09,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <ReferenceToGuid>4fddd9b102214f0f8a858ac6d7604cf3</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <HorizontalLinePrimitive2 Ref="99" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.16,1.32,19.7,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="100" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>64b0684c173e4f1eb55c31fd943c3bf6</Guid>
+              <Name>HorizontalLinePrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="70" />
+              <StartCap Ref="101" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooter1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </PageFooter1>
+        <GroupHeader1 Ref="102" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,9.86,20.4,0.05</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{TARTSOHD.FTXphDocNo}</Condition>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeader1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+          <ResetPageNumber>True</ResetPageNumber>
+        </GroupHeader1>
+        <Data1 Ref="103" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,10.71,20.4,0.54</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text18 Ref="104" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0,6.56,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="7" />
+              <Parent isRef="103" />
+              <Text>{TARTSODT.FNXpdDesc}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text8 Ref="105" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.12,0,4.64,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="7" />
+              <Parent isRef="103" />
+              <Text>{TARTSODT.FCXpdGrand - TARTSODT.FCXpdVat}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="106" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, DecimalSeparator</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text31 Ref="107" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.16,0.01,2,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="7" />
+              <Parent isRef="103" />
+              <Text>0.00</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="108" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text33 Ref="109" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.68,0.01,5,0.54</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Angsana New,13</Font>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="7" />
+              <Parent isRef="103" />
+              <Text>{TARTSODT.FCXpdGrand}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="110" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, DecimalSeparator</State>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>TARTSODT</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <FilterOn>False</FilterOn>
+          <Filters isList="true" count="0" />
+          <KeepFooterTogether>False</KeepFooterTogether>
+          <KeepHeaderTogether>False</KeepHeaderTogether>
+          <Name>Data1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>FNXpdSeqNo</value>
+          </Sort>
+        </Data1>
+        <RoundedRectangle1 Ref="111" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>0.15,8.22,19.7,16.32</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>89106e34c9c340e2ac1b54ef762145cf</Guid>
+          <Name>RoundedRectangle1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Round>0.01</Round>
+        </RoundedRectangle1>
+        <VerticalLinePrimitive8 Ref="112" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>6.96,3.72,0.0254,3.84</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="113" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>99971d42b60440dd8a037246629a5bde</Guid>
+          <Name>VerticalLinePrimitive8</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="114" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive8>
+        <RectanglePrimitive1 Ref="115" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.16,3.72,13.76,3.84</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>d18a8b3611ba4a31a6da9b6444b2c69d</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </RectanglePrimitive1>
+        <VerticalLinePrimitive4 Ref="116" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>6.96,8.24,0.0254,14.45</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="117" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>cc2bc9afcd8a42b98f942ca1c808da75</Guid>
+          <Name>VerticalLinePrimitive4</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="118" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive4>
+        <VerticalLinePrimitive2 Ref="119" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>12.04,8.24,0.0254,14.45</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="120" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>4fddd9b102214f0f8a858ac6d7604cf3</Guid>
+          <Name>VerticalLinePrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="121" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive2>
+        <VerticalLinePrimitive5 Ref="122" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>14.56,8.24,0.0254,16.29</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="123" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>0a3dada6b82544d58e59872906235d41</Guid>
+          <Name>VerticalLinePrimitive5</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="124" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive5>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>9fddaf268bad40b58ffb7f5f54a17970</Guid>
+      <Margins>0.3,0.3,0.3,0.4</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <PaperSourceOfFirstPage>Automatically Select</PaperSourceOfFirstPage>
+      <PaperSourceOfOtherPages>Automatically Select</PaperSourceOfOtherPages>
+      <Report isRef="0" />
+      <Watermark Ref="125" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,150</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Frm_SQL_SMSBillStateMent_Fit</ReportAlias>
+  <ReportChanged>8/9/2022 10:12:43 PM</ReportChanged>
+  <ReportCreated>4/28/2009 1:45:33 PM</ReportCreated>
+  <ReportDescription>Frm_SQL_SMSBillStateMent_Fit</ReportDescription>
+  <ReportFile>\\192.168.0.99\ForCustomer\ShareData\Dev\Nui\Work@Home\AdaPos5.0\Stimu\FitAuto\ใบคำนวณยอดเรียกเก็บประจำเดือน-V2022.1.4\22-08-09\Frm_SQL_SMMonthlyInvCal_Fit.mrt</ReportFile>
+  <ReportGuid>6e512d7c020a41999e43cad77ae6804b</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2022.1.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

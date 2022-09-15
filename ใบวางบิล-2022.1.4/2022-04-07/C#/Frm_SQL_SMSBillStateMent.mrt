@@ -1,0 +1,1643 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Pos Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>Pos</Alias>
+        <ConnectionStringEncrypted>9D7dSGJ4091gW6WYSklgP9Fuy8JFWXv16UnojU1x43+NWs3J5EoxbXFvnNxjZCS71Or7K8ZR88hqSYSAyAnrXoFU2aHGUEHtQEdxmXoN5+uCVsGD3ExD8HJJ0ZhjHelmg3CBzeVLAYTtTb34xBmk</ConnectionStringEncrypted>
+        <Key>a7fc5fc24543484c9c25076fa8bef47b</Key>
+        <Name>Pos</Name>
+      </Pos>
+    </Databases>
+    <DataSources isList="true" count="3">
+      <TARTSOHD Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TARTSOHD</Alias>
+        <Columns isList="true" count="51">
+          <value>ORIGINAL,FTBchCode,FTBchCode,FTBchCode,System.String,_x0032_e8f0e4e57b84c69a47ecf0179799554</value>
+          <value>ORIGINAL,FTBchName,FTBchName,FTBchName,System.String,_x0035_3f91e21886849f7bae5d1ab3fade76c</value>
+          <value>ORIGINAL,FTSplCode,FTSplCode,FTSplCode,System.String,_x0030_145ee3704574f7dada48b3ab7032abb</value>
+          <value>ORIGINAL,FTXphRmk,FTXphRmk,FTXphRmk,System.String,f018409d6e654c8d88e8837249b75a45</value>
+          <value>ORIGINAL,FTSplName,FTSplName,FTSplName,System.String,_x0038_3a8237f0d0c4454a76eb50b17ad52c4</value>
+          <value>ORIGINAL,FTSplTel,FTSplTel,FTSplTel,System.String,e26d0d924d42448c8c370d18fe8bb90b</value>
+          <value>ORIGINAL,FTSplFax,FTSplFax,FTSplFax,System.String,d70f0070e61a4fb683a81a5179656eae</value>
+          <value>ORIGINAL,FTXphDocNo,FTXphDocNo,FTXphDocNo,System.String,_x0032_609e71b223b43049bdbac6f4b75e02b</value>
+          <value>ORIGINAL,FDXphDocDate,FDXphDocDate,FDXphDocDate,System.DateTime,_x0030_59aa7cc34d24169926e109ab4ddc23c</value>
+          <value>ORIGINAL,FTChgDate,FTChgDate,FTChgDate,System.String,_x0037_f7842bc3cf048a68b5ff8d3da0a5daf</value>
+          <value>ORIGINAL,FTXphDocTime,FTXphDocTime,FTXphDocTime,System.String,_x0036_2fe584eb4b147d1947ca291fe1c72be</value>
+          <value>ORIGINAL,FTCreateBy,FTCreateBy,FTCreateBy,System.String,_x0031_daf92db26bc4b45ba85b046d2f91578</value>
+          <value>ORIGINAL,FTCreName,FTCreName,FTCreName,System.String,_x0038_69c917e1bf04714972c3c467c62b238</value>
+          <value>ORIGINAL,FTDptCode,FTDptCode,FTDptCode,System.String,bd18d6f6eedd42aa8f888fdf9e7d98a3</value>
+          <value>ORIGINAL,FTDptName,FTDptName,FTDptName,System.String,_x0034_9f0ead1a903481083cfa24b172a4edf</value>
+          <value>ORIGINAL,FTUsrCode,FTUsrCode,FTUsrCode,System.String,e9405a8dcd484310a09b9b87732144af</value>
+          <value>ORIGINAL,FTUsrName,FTUsrName,FTUsrName,System.String,b2efd77a92e84e118507d0c5c74f6fe5</value>
+          <value>ORIGINAL,FTXphStaDoc,FTXphStaDoc,FTXphStaDoc,System.String,fde2a41e6d2b4704a0e65acc33006e9c</value>
+          <value>ORIGINAL,FTXphApvCode,FTXphApvCode,FTXphApvCode,System.String,_x0038_516a2f6c9ff4ac4a7a006b010e5e703</value>
+          <value>ORIGINAL,FTUsrNameApp,FTUsrNameApp,FTUsrNameApp,System.String,_x0032_9690b1a3df14ff1bc89a111de7302e5</value>
+          <value>ORIGINAL,FTXphCtrName,FTXphCtrName,FTXphCtrName,System.String,_x0039_5d42b5ac4954899a25046cc0124435a</value>
+          <value>ORIGINAL,FTAddVersion,FTAddVersion,FTAddVersion,System.String,_x0035_278fdd03b914a5485c86bba8e3e3c44</value>
+          <value>ORIGINAL,FTAddV2Desc1,FTAddV2Desc1,FTAddV2Desc1,System.String,_x0037_81d6ebd12924481a5a6253dddbadc0b</value>
+          <value>ORIGINAL,FTAddV2Desc2,FTAddV2Desc2,FTAddV2Desc2,System.String,_x0036_3b53496c50f42939b629898f5aa6c73</value>
+          <value>ORIGINAL,FTAddRefNo,FTAddRefNo,FTAddRefNo,System.String,_x0037_5d1053ccc6040c49e8210236f9a0e81</value>
+          <value>ORIGINAL,FTAddV1PvnCode,FTAddV1PvnCode,FTAddV1PvnCode,System.String,e75e053d1b924ec8a8da09de58633aba</value>
+          <value>ORIGINAL,FTAddV1DstCode,FTAddV1DstCode,FTAddV1DstCode,System.String,_x0035_a2c4b4badec40f0988dbf08e3f9d5ad</value>
+          <value>ORIGINAL,FTAddV1SubDist,FTAddV1SubDist,FTAddV1SubDist,System.String,c99bd46bbbd548969031c3dc0b77edd0</value>
+          <value>ORIGINAL,FTAddName,FTAddName,FTAddName,System.String,f8042e6cb8404060974af943f5e4a4d9</value>
+          <value>ORIGINAL,FTAddV1No,FTAddV1No,FTAddV1No,System.String,_x0038_3203d07a185480e934d47502d350bf5</value>
+          <value>ORIGINAL,FTAddV1Village,FTAddV1Village,FTAddV1Village,System.String,_x0038_632e965889343daa766d267f6f9cfc7</value>
+          <value>ORIGINAL,FTAddV1Soi,FTAddV1Soi,FTAddV1Soi,System.String,_x0035_c81bc46bf6a4db383e7d7b877527f91</value>
+          <value>ORIGINAL,FTAddV1Road,FTAddV1Road,FTAddV1Road,System.String,f8d43d403d79434da0e4fb6be50bfd9c</value>
+          <value>ORIGINAL,FTAddV1PostCode,FTAddV1PostCode,FTAddV1PostCode,System.String,b5b9853713cc4c52802fbd06cd9dc490</value>
+          <value>ORIGINAL,FTPrdCode,FTPrdCode,FTPrdCode,System.String,_x0035_f6e0d2c8f244668a75bb409da4afce4</value>
+          <value>ORIGINAL,FTXphDueDate,FTXphDueDate,FTXphDueDate,System.String,_x0033_098e98217474744a9d54a4a1a815ad8</value>
+          <value>FTXphCond,System.String</value>
+          <value>FTXphDstPaid,System.String</value>
+          <value>FTXphCshOrCrd,System.String</value>
+          <value>FNXphCrTerm,System.Int32</value>
+          <value>FTXphCtrCode,System.String</value>
+          <value>FCXphTotal,System.Double</value>
+          <value>FCXphGndXC,System.Double</value>
+          <value>FCXphGndXN,System.Double</value>
+          <value>FCXphGndXX,System.Double</value>
+          <value>FCXphGrand,System.Double</value>
+          <value>FTXphGrandText,System.String</value>
+          <value>FTXphStaApv,System.String</value>
+          <value>FTCtrName,System.String</value>
+          <value>FTUsrCodeApp,System.String</value>
+          <value>FTCreCode,System.String</value>
+        </Columns>
+        <CommandTimeout>5000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>6557a47e574e40bdadf2b72a45f78488</Key>
+        <Name>TARTSOHD</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT TOP 1 HD.FTBchCode,BchL.FTBchName,ISNULL(HD.FTCstCode,'') AS FTCstCode,ISNULL(FTXphRmk,'') AS FTXphRmk,
+	ISNULL(Cst_L.FTCstName,'') AS FTCstName,ISNULL(Cst.FTCstTel,'') AS FTCstTel,ISNULL(Cst.FTCstFax,'') AS FTCstFax,
+	HD.FTXphDocNo,FDXphDocDate,CONVERT(VARCHAR(10),FDXphDocDate,103) AS FTChgDate,CONVERT(VARCHAR(10),FDXphDocDate,8) AS FTXphDocTime,
+	HD.FTCreateBy,UsrCre_L.FTUsrName AS FTCreName,
+	UsrCre_L.FTUsrCode AS FTCreCode,
+	ISNULL(HD.FTDptCode,'') AS FTDptCode,Dpl_L.FTDptName,
+	ISNULL(HD.FTUsrCode,'') AS FTUsrCode,Usr_L.FTUsrName,	
+	ISNULL(FTXphStaDoc,'') AS FTXphStaDoc,
+	ISNULL(HD.FTXphApvCode,'') AS FTXphApvCode,
+	ISNULL(UsrApvL.FTUsrCode,'') AS FTUsrCodeApp,
+	ISNULL(UsrApvL.FTUsrName,'') AS FTUsrNameApp,
+	ISNULL(SHD.FTXphCtrName,'') AS FTXphCtrName,
+	ISNULL(FTAddVersion,'2') AS FTAddVersion,
+	ISNULL(FTAddV2Desc1,'') AS FTAddV2Desc1,
+	ISNULL(FTAddV2Desc2,'') AS FTAddV2Desc2,
+	ISNULL(CstAddr_L.FTAddRefNo,'') AS FTAddRefNo,
+	ISNULL(CstAddr_L.FTAddV1PvnCode,'') AS FTAddV1PvnCode, ISNULL(CstAddr_L.FTAddV1DstCode,'') AS FTAddV1DstCode,
+	ISNULL(CstAddr_L.FTAddV1SubDist,'') AS FTAddV1SubDist, 
+	ISNULL(CstAddr_L.FTAddName,'') AS FTAddName, ISNULL(CstAddr_L.FTAddV1No, '') AS FTAddV1No,
+	ISNULL(CstAddr_L.FTAddV1Village, '') AS FTAddV1Village,
+	ISNULL(CstAddr_L.FTAddV1Soi, '') AS FTAddV1Soi,
+	ISNULL(CstAddr_L.FTAddV1Road, '') AS FTAddV1Road,
+	ISNULL(CstAddr_L.FTAddV1PostCode, '') AS FTAddV1PostCode,
+	HD.FTPrdCode,CONVERT(VARCHAR(10),HD.FDXphDueDate,103) AS FTXphDueDate,HD.FTXphCond,
+	SHD.FTXphDstPaid,SHD.FTXphCshOrCrd,SHD.FNXphCrTerm,SHD.FTXphCtrName AS FTXphCtrCode,
+	SHD.FTXphCtrName AS FTCtrName,
+	ISNULL(FCXphTotal,0) AS FCXphTotal,
+	ISNULL(FCXphGndXC,0) AS FCXphGndXC,
+	ISNULL(FCXphGndXN,0) AS FCXphGndXN,
+	ISNULL(FCXphGndXX,0) AS FCXphGndXX,
+	ISNULL(FCXphGrand,0) AS FCXphGrand,
+	ISNULL(FTXphGrandText,'') AS FTXphGrandText,HD.FTXphStaApv
+	FROM TACTSBHD  HD WITH (NOLOCK)  LEFT JOIN 
+     TACTSBHDCst SHD WITH (NOLOCK) ON HD.FTBchCode = SHD.FTBchCode AND HD.FTXphDocNo = SHD.FTXphDocNo 
+	 LEFT JOIN  TCNMBranch_L BchL WITH (NOLOCK) ON HD.FTBchCode = BchL.FTBchCode AND BchL.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMCst Cst WITH (NOLOCK) ON HD.FTCstCode = Cst.FTCstCode LEFT JOIN
+	 TCNMCst_L Cst_L WITH (NOLOCK) ON HD.FTCstCode = Cst_L.FTCstCode AND Cst_L.FNLngID =  @pnLanguage LEFT JOIN
+     TCNMCst_L CtrCst_L WITH (NOLOCK) ON SHD.FTXphCtrName = CtrCst_L.FTCstCode AND CtrCst_L.FNLngID =  @pnLanguage LEFT JOIN
+     TCNMUsrDepart_L Dpl_L WITH (NOLOCK) ON  HD.FTDptCode = Dpl_L.FTDptCode AND Dpl_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L Usr_L  WITH (NOLOCK) ON HD.FTUsrCode = Usr_L.FTUsrCode AND Usr_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L UsrCre_L  WITH (NOLOCK) ON HD.FTCreateBy = UsrCre_L.FTUsrCode AND UsrCre_L.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMUser_L UsrApvL  WITH (NOLOCK) ON HD.FTXphApvCode = UsrApvL.FTUsrCode AND UsrApvL.FNLngID =  @pnLanguage LEFT JOIN
+	 TCNMCstAddress_L CstAddr_L WITH (NoLock) ON HD.FTCstCode = CstAddr_L.FTCstCode AND CstAddr_L.FTAddGrpType ='1' AND CstAddr_L.FNLngID =  @pnLanguage
+WHERE HD.FTXphDocNo = @ptDocNo AND HD.FTBchCode = @ptDocBch AND HD.FTXphDocType = '1'</SqlCommand>
+      </TARTSOHD>
+      <Company Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Company</Alias>
+        <Columns isList="true" count="22">
+          <value>FTCompName,System.String</value>
+          <value>FTBchCode,System.String</value>
+          <value>FTAddrType,System.String</value>
+          <value>FTAddName,System.String</value>
+          <value>FTBchName,System.String</value>
+          <value>FTAddV1No,System.String</value>
+          <value>FTAddV1Soi,System.String</value>
+          <value>FTAddV1Village,System.String</value>
+          <value>FTAddV1Road,System.String</value>
+          <value>FTAddV1SubDist,System.String</value>
+          <value>FTSudName,System.String</value>
+          <value>FTAddV1DstCode,System.String</value>
+          <value>FTDstName,System.String</value>
+          <value>FTAddV1PvnCode,System.String</value>
+          <value>FTPvnName,System.String</value>
+          <value>FTAddV1PostCode,System.String</value>
+          <value>FTAddV2Desc1,System.String</value>
+          <value>FTAddV2Desc2,System.String</value>
+          <value>FTAddTel,System.String</value>
+          <value>FTAddFax,System.String</value>
+          <value>FTAddWebsite,System.String</value>
+          <value>FTAddTaxNo,System.String</value>
+        </Columns>
+        <CommandTimeout>5000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>a5dc827047c14e47822e195841963e6e</Key>
+        <Name>Company</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="5">
+          <value>ptCompCode,SP_tCompCode,22,5</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>pnAddSeq,SP_nAddSeq,8,3</value>
+          <value>ptCmpBch,SP_tCmpBch,22,5</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeMer,'') THEN FTMerName ELSE 
+	CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeAgn,'') THEN FTAgnName ELSE  
+		CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeBch,'') THEN FTCmpName ELSE 
+			CASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeCmp,'') THEN FTCmpName ELSE 
+(SELECT CmpL.FTCmpName 
+	FROM TCNMComp Cmp  WITH (NOLOCK) LEFT JOIN
+				 TCNMComp_L CmpL  WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND FNLngID = @pnLanguage
+				 WHERE FTBchCode = @ptCompCode)   
+			END
+		END
+	END
+END
+AS 	FTCompName,FTBchCode,
+FTAddrType,FTAddName,(SELECT FTBchName FROM TCNMBranch_L  WITH (NOLOCK) WHERE  FTBchCode = @ptDocBch AND FNLngID = @pnLanguage ) AS FTBchName,
+FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,FTSudName,FTAddV1DstCode,FTDstName,FTAddV1PvnCode,FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+FTAddTel,FTAddFax,FTAddWebsite  ,FTAddTaxNo
+FROM
+(SELECT BchMst.FTBchCode, AddrL.FTAddRefCode,FTAddRefCodeMer,Mer.FTMerName,Agn.FTAddRefCodeAgn,Agn.FTAgnName,Bch.FTAddRefCodeBch,
+	Bch.FTCmpName AS FTCmpNameBch,FTAddRefCodeCmp,
+	(SELECT FTCmpName FROM TCNMComp_L WHERE FTCmpCode = @ptCompCode AND FNLngID = @pnLanguage) AS FTCmpName,
+	FTAddVersion AS FTAddrType,AddrL.FTAddName,
+	FTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,SDstL.FTSudName,FTAddV1DstCode,DstL.FTDstName,FTAddV1PvnCode,PvnL.FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,
+	AddrL.FTAddTel,AddrL.FTAddFax,AddrL.FTAddWebsite  ,FTAddTaxNo
+	FROM TCNMBranch BchMst  WITH (NOLOCK) LEFT JOIN 
+	TCNMAddress_L AddrL  WITH (NOLOCK) ON BchMst.FTBchCode = AddrL.FTAddRefCode
+	 LEFT JOIN
+			 (
+SELECT FTBchCode,Bch.FTMerCode,FTMerName,FTAddRefCode AS FTAddRefCodeMer
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+				INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTMerCode = AddrL.FTAddRefCode AND AddrL.FTAddGrpType = '7' AND AddrL.FTAddRefNo = '1'
+				LEFT JOIN TCNMMerChant_L MerL WITH (NOLOCK) ON Bch.FTMerCode = MerL.FTMerCode AND MerL.FNLngID = @pnLanguage
+				WHERE FTBchCode = @ptCmpBch  
+			 ) Mer ON AddrL.FTAddRefCode  = Mer.FTAddRefCodeMer 
+
+	 LEFT JOIN
+			
+(SELECT FTBchCode,Agn.FTAgnCode,AgnL.FTAgnName,FTAddRefCode AS FTAddRefCodeAgn
+	FROM  TCNMAgency Agn WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Agn.FTAgnCode = AddrL.FTAddRefCode  AND  AddrL.FTAddGrpType = '5' 
+			 LEFT JOIN TCNMAgency_L AgnL WITH (NOLOCK) ON Agn.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID = @pnLanguage
+			 WHERE AddrL.FTAddRefNo = '1'
+			) Agn  ON AddrL.FTAddRefCode  = Agn.FTAddRefCodeAgn
+
+	 LEFT JOIN
+		
+(SELECT Bch.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeBch
+	FROM  TCNMBranch Bch WITH (NOLOCK) 
+			 LEFT JOIN TCNMComp Cmp WITH (NOLOCK) ON Cmp.FTBchCode = Bch.FTBchCode 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Bch.FTBchCode = @ptCmpBch 
+			) Bch ON  AddrL.FTAddRefCode  = Bch.FTAddRefCodeBch
+	 LEFT JOIN
+		
+(SELECT Cmp.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeCmp
+	FROM  TCNMComp Cmp WITH (NOLOCK) 
+			 INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Cmp.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'
+			 LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage
+			 WHERE Cmp.FTBchCode = @ptCmpBch 
+			) Cmp ON  AddrL.FTAddRefCode  = Cmp.FTAddRefCodeCmp
+	 LEFT JOIN TCNMProvince_L PvnL WITH (NoLock) ON  AddrL.FTAddV1PvnCode = PvnL.FTPvnCode AND PvnL.FNLngID = @pnLanguage
+	 LEFT JOIN TCNMDistrict_L DstL WITH (NoLock) ON  AddrL.FTAddV1DstCode = DstL.FTDstCode AND DstL.FNLngID = @pnLanguage		
+	 LEFT JOIN TCNMSubDistrict_L SDstL WITH (NoLock) ON  AddrL.FTAddV1SubDist = SDstL.FTSudCode AND SDstL.FNLngID = @pnLanguage		
+	 WHERE BchMst.FTBchCode = @ptCmpBch OR
+	    (AddrL.FTAddRefCode = Mer.FTMerCode OR AddrL.FTAddRefCode = Agn.FTAgnCode OR AddrL.FTAddRefCode = Bch.FTBchcode OR AddrL.FTAddRefCode = Cmp.FTBchcode )
+) AddrSum</SqlCommand>
+      </Company>
+      <TARTSODT Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TARTSODT</Alias>
+        <Columns isList="true" count="15">
+          <value>ORIGINAL,FNXpdSeqNo,FNXpdSeqNo,FNXpdSeqNo,System.Int64,_x0039_65502c1f8e643b7a711ae5640d50550</value>
+          <value>ORIGINAL,FTBchCode,FTBchCode,FTBchCode,System.String,a6d900dc46024bd091b8d323d70ac247</value>
+          <value>ORIGINAL,FTXpdRefDocType,FTXpdRefDocType,FTXpdRefDocType,System.String,a6d43ffa10084e8980f9f8750a27beda</value>
+          <value>ORIGINAL,FTXpdRefDocDate,FTXpdRefDocDate,FTXpdRefDocDate,System.String,_x0037_9b1d183ef274ac4903cf173c1b1876a</value>
+          <value>ORIGINAL,FTXphDocNo,FTXphDocNo,FTXphDocNo,System.String,_x0033_b5845ef17e049c4845fb8f4a38e3b12</value>
+          <value>ORIGINAL,FTXpdRefDocNo,FTXpdRefDocNo,FTXpdRefDocNo,System.String,eb2cc034e6d348da829d7f629850e508</value>
+          <value>ORIGINAL,FTXshRefDocNo,FTXshRefDocNo,FTXshRefDocNo,System.String,c791c0203e084810817c4fe5ed46f9e5</value>
+          <value>ORIGINAL,FTXpdDueDate,FTXpdDueDate,FTXpdDueDate,System.String,_x0038_e4d6e2acf1a4b99af325d89459e731f</value>
+          <value>ORIGINAL,FCXpdInvLeft,FCXpdInvLeft,FCXpdInvLeft,System.Double,f4bbfc14beb64a7ca298add40b2fcd7b</value>
+          <value>ORIGINAL,FCXpdInvPaid,FCXpdInvPaid,FCXpdInvPaid,System.Double,_x0033_7fb360c0b7f4bddad709b542e74f0a8</value>
+          <value>ORIGINAL,FCXpdInvRem,FCXpdInvRem,FCXpdInvRem,System.Double,dc3469a3db8449d58f65ef00240adfb6</value>
+          <value>ORIGINAL,FTXpdRmk,FTXpdRmk,FTXpdRmk,System.String,_x0036_e48c801f03b4469aeb4f57f279eda1d</value>
+          <value>ORIGINAL,FTSrnCode,FTSrnCode,FTSrnCode,System.String,d14e2ea08fc749ee86cc6c30bf33b7b6</value>
+          <value>ORIGINAL,FTxtdDocNoRef,FTxtdDocNoRef,FTxtdDocNoRef,System.String,e95fe989657b461fb418c7cb386f1b2b</value>
+          <value>ORIGINAL,FTAjdDateTimeC1,FTAjdDateTimeC1,FTAjdDateTimeC1,System.String,_x0036_ae1d02203df4f4397dac78993c9493b</value>
+        </Columns>
+        <CommandTimeout>10000</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>e196035517ea43d99b68847895a2dc57</Key>
+        <Name>TARTSODT</Name>
+        <NameInSource>Pos</NameInSource>
+        <Parameters isList="true" count="3">
+          <value>ptDocNo,SP_tDocNo,22,20</value>
+          <value>pnLanguage,nLanguage,16,3</value>
+          <value>ptDocBch,SP_tDocBch,22,5</value>
+        </Parameters>
+        <SqlCommand>SELECT DT.FNXpdSeqNo ,DT.FTBchCode,FTXpdRefDocType,CONVERT(VARCHAR(10),FDXpdRefDocDate,103) AS FTXpdRefDocDate,
+	DT.FTXphDocNo,DT.FTXpdRefDocNo,PiRef.FTXshRefDocNo,
+	CONVERT(VARCHAR(10),FDXpdDueDate,103) AS FTXpdDueDate,
+	ISNULL(DT.FCXpdInvLeft,0) AS FCXpdInvLeft,ISNULL(DT.FCXpdInvPaid,0) AS FCXpdInvPaid,ISNULL(DT.FCXpdInvRem,0) AS FCXpdInvRem,DT.FTXpdRmk,
+	DTTmp.FTSrnCode,DTTmp.FTxtdDocNoRef,CONVERT(VARCHAR(10),FDAjdDateTimeC1,103) AS FTAjdDateTimeC1
+	FROM TACTSbDT DT WITH (NOLOCK) 
+LEFT JOIN TAPTPiHDDocRef PiRef WITH (NOLOCK) ON DT.FTXpdRefDocNo = PiRef.FTXshDocNo AND FTXshRefType = '3'
+LEFT JOIN TCNTDocDTTmp DTTmp WITH (NOLOCK)  ON DT.FTXphDocNo = DTTmp.FTXthDocNo AND DT.FTXpdRefDocNo = DTTmp.FTPdtCode  AND ISNULL(FTSrnCode,'') &lt;&gt; '' AND FTXthDocKey = 'TACTSBDTStep2'
+WHERE DT.FTXphDocNo = @ptDocNo AND DT.FTBchCode = @ptDocBch
+</SqlCommand>
+      </TARTSODT>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="8">
+      <value>,SP_nLang,SP_nLang,,System.String,_x0031_,False,False,False,False,,_x0039_8fd95f43d3e488e81210e35027f63c1</value>
+      <value>,nLanguage,nLanguage,,System.Int32,_x0031_,False,False,False,False,,_x0039_8035005e15b40b2a830ee18b958fa82,True</value>
+      <value>,SP_tCompCode,SP_tCompCode,,System.String,_x0030_0001,False,False,False,False,,_x0039_7cc4d93ef174c03bead690b6df6ff63,True</value>
+      <value>,SP_tCmpBch,SP_tCmpBch,,System.String,_x0030_0001,False,False,False,False,,d891bde0584b4fda9942156d1b9b3a7c,True</value>
+      <value>,SP_tDocNo,SP_tDocNo,,System.String,SB0000122000003,False,False,False,False,,d4a72c0b73034a81ae3b4d0d91c28499,True</value>
+      <value>,SP_nAddSeq,SP_nAddSeq,,System.Int32,_x0031_0149,False,False,False,False,,_x0032_d2e019dd8dd429ba48fdbdc7e41b81e,True</value>
+      <value>,SP_tDocBch,SP_tDocBch,,System.String,_x0030_0001,False,False,False,False,,e0bb2a5a297d4b7c883647bcdb59e77a,True</value>
+      <value>,SP_tGrdStr,SP_tGrdStr,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>b2e582f01d0b43d0b4652664e1e57285</Key>
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="9">
+        <PageHeader1 Ref="7" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,20.4,6.5</ClientRectangle>
+          <Components isList="true" count="8">
+            <Header Ref="8" type="Text" isKey="true">
+              <Alias>Header</Alias>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.92,0.2,8.85,0.75</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Header</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>{IIF(SP_nLang=="1","ใบวางบิล","Bill Statement")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Header>
+            <Container1 Ref="9" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0,2.2,20.4,3.3</ClientRectangle>
+              <Components isList="true" count="6">
+                <tSplAddress Ref="10" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0.3,1.25,10.45,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>e75841e16962424f8d0c0945b84d6bc3</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0,0</Margins>
+                  <MaxNumberOfLines>4</MaxNumberOfLines>
+                  <Name>tSplAddress</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                  <Text>{IIF(SP_nLang=="1","ที่อยู่ :","Address :")} {IIF(TARTSOHD.FTAddVersion=="1",
+IIF(SP_nLang=="1","เลขที่ ","No. ") + TARTSOHD.FTAddV1No +
+IIF(TARTSOHD.FTAddV1Village =="",""," " + TARTSOHD.FTAddV1Village + " ") +
+IIF(TARTSOHD.FTAddV1Soi=="","",IIF(SP_nLang=="1","ซอย","Soi ") + TARTSOHD.FTAddV1Soi + " ") +
+IIF(TARTSOHD.FTAddV1Road=="","",IIF(SP_nLang=="1","ถนน","") + TARTSOHD.FTAddV1Road + IIF(SP_nLang=="1",""," Rd.")+ " ")+ 
+IIF(TARTSOHD.FTAddV1PostCode=="","",TARTSOHD.FTAddV1PostCode)
+,TARTSOHD.FTAddV2Desc1) + "  " + TARTSOHD.FTAddV2Desc2
+}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </tSplAddress>
+                <Panel3 Ref="11" type="Panel" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0.75,11.05,0.5</ClientRectangle>
+                  <Components isList="true" count="1">
+                    <tSplName Ref="12" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <CanGrow>True</CanGrow>
+                      <ClientRectangle>0.3,0,10.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>edda136400414e19a5a5ce3e86e60662</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>tSplName</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="11" />
+                      <Text>{IIF(SP_nLang=="1","ผู้จำหน่าย :","Supplier :")} {TARTSOHD.FTSplName}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </tSplName>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>Panel3</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                </Panel3>
+                <Text50 Ref="13" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.3,0.25,10.45,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>e249a7fe6e704b378db9adeef7ef5710</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text50</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                  <Text>{IIF(SP_nLang=="1","สาขา :","Branch :")} {TARTSOHD.FTBchName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text50>
+                <Panel2 Ref="14" type="Panel" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>11,0,9.4,3.3</ClientRectangle>
+                  <Components isList="true" count="6">
+                    <tDocNo Ref="15" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.15,0.25,8.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>098204f91c9343cba6baf9a1e8b7ba68</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>tDocNo</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <Text>{IIF(SP_nLang=="1","เลขที่เอกสาร :","Doc. No. :")} {TARTSOHD.FTXphDocNo}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </tDocNo>
+                    <tDocDate Ref="16" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.15,0.75,8.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>213743440a7c418abaa6432f713f9908</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>tDocDate</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <Text>{IIF(SP_nLang=="1","วันที่เอกสาร :","Document Date :")} {TARTSOHD.FTChgDate}  {TARTSOHD.FTXphDocTime}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </tDocDate>
+                    <tOperator Ref="17" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.15,1.25,8.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>e27e8e9b6bd54b6bbc2dde45bdc0cd17</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>tOperator</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <Text>{IIF(SP_nLang=="1","ผู้สร้างเอกสาร :","Create By :")} {"("+TARTSOHD.FTCreCode+") "+TARTSOHD.FTCreName}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </tOperator>
+                    <Text5 Ref="18" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.15,2.25,8.55,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>60f16f4790e547c1b8d76d8214743468</Guid>
+                      <Margins>0,0,2,0</Margins>
+                      <Name>Text5</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <Text>{IIF(SP_nLang=="1","สถานะเอกสาร :","Document Sta. :")}  {IIF(TARTSOHD.FTXphStaDoc=="3",IIF(SP_nLang=="1","ยกเลิก","Cancel"),IIF(TARTSOHD.FTXphStaApv =="1",IIF(SP_nLang=="1","อนุมัติ","Approve") ,IIF(SP_nLang=="1","รออนุมัติ","Waiting for apprive")))}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text5>
+                    <Text49 Ref="19" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.15,1.75,8.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>d821c521856943c0858ca61bc67cf45b</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text49</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <Text>{IIF(SP_nLang=="1","ผู้อนุมัติ :","Approve By :")} {IIF(TARTSOHD.FTXphApvCode==""," - ","("+TARTSOHD.FTUsrCodeApp+") "+TARTSOHD.FTUsrNameApp)}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text49>
+                    <StartPointPrimitive4 Ref="20" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                      <ClientRectangle>0.05,0.05,0,0</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Name>StartPointPrimitive4</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="14" />
+                      <ReferenceToGuid>011cfd3c68434d91bebc0383ffa0ae21</ReferenceToGuid>
+                    </StartPointPrimitive4>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>Panel2</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                </Panel2>
+                <Panel5 Ref="21" type="Panel" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanBreak>True</CanBreak>
+                  <CanGrow>True</CanGrow>
+                  <CanShrink>True</CanShrink>
+                  <ClientRectangle>0,1.75,11,1.55</ClientRectangle>
+                  <Components isList="true" count="5">
+                    <Text51 Ref="22" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.3,0,4.95,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>7b27e13482d64933afaab384dd6c7d72</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text51</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="21" />
+                      <Text>{IIF(SP_nLang=="1","การชำระเงิน :","Payment :")} {Switch(TARTSOHD.FTXphDstPaid=="2",IIF(SP_nLang=="1","ชำระเงินปลายทาง","pay on delivery"),TARTSOHD.FTXphDstPaid=="1",IIF(SP_nLang=="1","ชำระเงินต้นทาง","Prigin Payment"))}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text51>
+                    <Text52 Ref="23" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <CanGrow>True</CanGrow>
+                      <ClientRectangle>5.3,0,5.45,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>5b9ef9b5f9da4786872dae45f712a167</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text52</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="21" />
+                      <Text>{IIF(SP_nLang=="1","ประเภทการชำระเงิน :","Payment Type :")} {Switch(TARTSOHD.FTXphCshOrCrd=="2",IIF(SP_nLang=="1","เงินเชื่อ","Creadit"),TARTSOHD.FTXphCshOrCrd=="1",IIF(SP_nLang=="1","เงินสด","Cash"))}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text52>
+                    <Text14 Ref="24" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <CanGrow>True</CanGrow>
+                      <ClientRectangle>0.3,0.5,2.9,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>e9f7663e9a1242b18b77104c09ef51e9</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text14</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="21" />
+                      <Text>{IIF(SP_nLang=="1","ระยะเครดิต :","Dredit Term :")} {TARTSOHD.FNXphCrTerm} {IIF(SP_nLang=="1","วัน","Day")}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text14>
+                    <Text15 Ref="25" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <CanGrow>True</CanGrow>
+                      <ClientRectangle>3.3,0.5,7.5,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>50805421206b40bdae4027e42ae90d6f</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text15</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="21" />
+                      <Text>{IIF(SP_nLang=="1","งวดบัญชี :","Accounting period :")} {TARTSOHD.FTPrdCode}  {IIF(SP_nLang=="1","วันที่นัดชำระเงิน :","payment appointment date :")} {TARTSOHD.FTXphDueDate}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text15>
+                    <Text16 Ref="26" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <CanGrow>True</CanGrow>
+                      <ClientRectangle>0.3,1,10.5,0.5</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Font>Tahoma,9</Font>
+                      <Guid>516f10f577a84be782a8d4c43bfc30b7</Guid>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text16</Name>
+                      <Page isRef="6" />
+                      <Parent isRef="21" />
+                      <Text>{IIF(SP_nLang=="1","ผู้ติดต่อ :","Contacter :")} {TARTSOHD.FTCtrName}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text16>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>Panel5</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                </Panel5>
+                <StartPointPrimitive3 Ref="27" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>0.15,0.05,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive3</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="9" />
+                  <ReferenceToGuid>8faf532b730e4b038cdf2fcbc5a44c7d</ReferenceToGuid>
+                </StartPointPrimitive3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Container1</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+            </Container1>
+            <Container2 Ref="28" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.85,1,9.55,1.15</ClientRectangle>
+              <Components isList="true" count="4">
+                <TotalPage Ref="29" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>7.6,0.1,1.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,8</Font>
+                  <Guid>6b766ab665854a7d812ff3be4fd283f0</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>TotalPage</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="28" />
+                  <Text>{PageNumber} / {TotalPageCount}</Text>
+                  <TextBrush>Black</TextBrush>
+                </TotalPage>
+                <tdBarcodeDoc Ref="30" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+                  <Alias>[Barcode]</Alias>
+                  <BackColor>Transparent</BackColor>
+                  <BarCodeType Ref="31" type="Stimulsoft.Report.BarCodes.StiCode128AutoBarCodeType" isKey="true" />
+                  <ClientRectangle>0.1,0.5,8.85,0.5</ClientRectangle>
+                  <Code>{TARTSOHD.FTXphDocNo}</Code>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8,Bold,Pixel</Font>
+                  <ForeColor>Black</ForeColor>
+                  <Guid>7a5a08bf2caf492fb8a257b5a97327f5</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Name>tdBarcodeDoc</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="28" />
+                </tdBarcodeDoc>
+                <tDatePrint Ref="32" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.1,0.1,7.5,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,8</Font>
+                  <Guid>c5dd203116b84080adc0b35797117645</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>tDatePrint</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="28" />
+                  <Text>{IIF(SP_nLang=="1","วันที่พิมพ์ :","Print Date : ")} {Format("{0:dd/MM/yyyy}", Today)} {IIF(SP_nLang=="1","เวลา : ","Time : ")} {Format("{0:HH:mm:ss}", Time)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </tDatePrint>
+                <EndPointPrimitive1 Ref="33" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                  <ClientRectangle>9,0,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>EndPointPrimitive1</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="28" />
+                  <ReferenceToGuid>9c492308b26d4f0cbb3333b8a6c11599</ReferenceToGuid>
+                </EndPointPrimitive1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Container2</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+            </Container2>
+            <Container3 Ref="34" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.1,10.75,2.05</ClientRectangle>
+              <Components isList="true" count="2">
+                <CmpName Ref="35" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.15,0.2,10.4,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10,Bold</Font>
+                  <Guid>b542f57c609b4485a31e1e2c866b6820</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CmpName</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="34" />
+                  <Text>{Company.FTCompName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </CmpName>
+                <CmpAddr Ref="36" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.15,0.7,9.45,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Editable>True</Editable>
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>2538538c36b0498f90976109fdee3c2a</Guid>
+                  <LineSpacing>1.1</LineSpacing>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CmpAddr</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="34" />
+                  <Text>{IIF(Company.FTAddrType == "1",
+IIF(SP_nLang=="1","เลขที่ ","No. ") + Company.FTAddV1No +
+IIF(Company.FTAddV1Village =="",""," " + Company.FTAddV1Village + " "+ (char)13) +
+IIF(Company.FTAddV1Soi=="","",IIF(SP_nLang=="1","ซอย","Soi ") + Company.FTAddV1Soi + " ") +
+IIF(Company.FTAddV1Road=="","",IIF(SP_nLang=="1","ถนน","") + Company.FTAddV1Road + IIF(SP_nLang=="1",""," Rd.")+ " ")+ 
+IIF(Company.FTAddV1SubDist=="","",IIF(SP_nLang=="1","  " + Company.FTSudName," " + Company.FTSudName +"  SubDistrict ")  + " ") +
+IIF(Company.FTAddV1DstCode=="","",IIF(SP_nLang=="1","  " + Company.FTDstName," " + Company.FTDstName +"  District ")  + " ") + 
+IIF(Company.FTAddV1PvnCode=="","",IIF(SP_nLang=="1","  " + Company.FTPvnName," " + Company.FTPvnName+ "  Provin") + " ") +
+IIF(Company.FTAddV1PostCode=="","",Company.FTAddV1PostCode) +" "+(char)13+
+IIF(SP_nLang=="1","โทร","Tel") + " : "  + Company.FTAddTel + "  " + IIF(SP_nLang=="1","แฟกซ์","Fax") + " : " +  Company.FTAddFax 
+,IIF(Company.FTAddV2Desc1=="","",Company.FTAddV2Desc1) + "" +  IIF(Company.FTAddV2Desc1=="",IIF(Company.FTAddV2Desc2=="","",Company.FTAddV2Desc2),IIF(Company.FTAddV2Desc2=="","",(Char)13 + Company.FTAddV2Desc2)))}
+{IIF(SP_nLang=="1","สาขา","Branch")} :  {Company.FTBchName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                </CmpAddr>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Container3</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+            </Container3>
+            <Panel1 Ref="37" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5.65,20.4,0.75</ClientRectangle>
+              <Components isList="true" count="11">
+                <tPdtCode Ref="38" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.2,0.15,2,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>437e19823a6c4be4acddc065db340c9a</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>tPdtCode</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","ประเภทเอกสาร","Document Type")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </tPdtCode>
+                <tNo Ref="39" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.25,0.15,0.9,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>773f54fe02d049f0b552f1994adf5013</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>tNo</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","ลำดับ","No.")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </tNo>
+                <tQty Ref="40" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.64,0.15,2.16,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>d73dea2cb0a24692821ccdf98d66bc28</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>tQty</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","จำนวนนวนเงิน","Amount")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </tQty>
+                <tBarcode Ref="41" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>3.22,0.15,1.75,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>a2f947f71ebe4a1a8962da30666e7fad</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>tBarcode</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","วันที่เอกสาร","Doc. Date")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </tBarcode>
+                <Text7 Ref="42" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>15.8,0.15,1.88,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>e7d29162c2114e4d9d7193d128757abb</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","ชำระแล้ว","Paid")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text9 Ref="43" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>17.68,0.15,2.08,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>11b990f019e34988a0eb530ac972eff0</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","ค้างชำระ","Remain")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Text18 Ref="44" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5.02,0.15,3.53,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>fcca9082f6d44d23b3a643b9b6fa73cb</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text18</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","เลขที่เอกสาร","Doc. No")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text18>
+                <Text11 Ref="45" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>8.6,0.15,3.21,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>67ce455e5b094092b4c9a9e5be13b980</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","เอกสารอ้างอิง","Doc. Ref.")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text13 Ref="46" type="Text" isKey="true">
+                  <Alias>Barcode</Alias>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>11.84,0.15,1.76,0.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>e5142fd3e6044f5385da789270fb7b04</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text13</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <Text>{IIF(SP_nLang == "1","ครบกำหนด","Due Date")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text13>
+                <StartPointPrimitive2 Ref="47" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>0.15,0.05,0,0</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Name>StartPointPrimitive2</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <ReferenceToGuid>89106e34c9c340e2ac1b54ef762145cf</ReferenceToGuid>
+                </StartPointPrimitive2>
+                <HorizontalLine2 Ref="48" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.15,0.7,19.7,0.0254</ClientRectangle>
+                  <Color>Black</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="49" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLine2</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="37" />
+                  <StartCap Ref="50" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLine2>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Panel1</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+            </Panel1>
+            <StartPointPrimitive1 Ref="51" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>10.85,0.1,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive1</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <ReferenceToGuid>9c492308b26d4f0cbb3333b8a6c11599</ReferenceToGuid>
+            </StartPointPrimitive1>
+            <EndPointPrimitive3 Ref="52" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>10.95,5.55,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <ReferenceToGuid>8faf532b730e4b038cdf2fcbc5a44c7d</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <EndPointPrimitive4 Ref="53" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.85,5.55,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <ReferenceToGuid>011cfd3c68434d91bebc0383ffa0ae21</ReferenceToGuid>
+            </EndPointPrimitive4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageHeader1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </PageHeader1>
+        <PageFooter1 Ref="54" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,22.5,20.4,6.5</ClientRectangle>
+          <Components isList="true" count="9">
+            <Panel4 Ref="55" type="Panel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.65,20.4,3.35</ClientRectangle>
+              <Components isList="true" count="10">
+                <Text39 Ref="56" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.66,1.28,0.25,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>81d6db688068410194a7fcabd46b1416</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text39</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>(</Text>
+                  <TextBrush>Black</TextBrush>
+                </Text39>
+                <Text40 Ref="57" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.51,0.88,5.1,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>e19f508b590e48b8a15a7dbe7280b77a</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text40</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>..........................................</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text40>
+                <Text41 Ref="58" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>18.21,1.28,0.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>0d249b8dcaa648bf8e84276ee2e26dc7</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text41</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text41>
+                <Text42 Ref="59" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.51,1.93,5.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>4e97e9c3ff464dc1a5dfad576b4c5348</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text42</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>{IIF(SP_nLang=="1","ผู้รับวางบิล","Employee")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text42>
+                <Text43 Ref="60" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.51,2.58,5.1,0.45</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>55c758de520349fa9c62ef66f52506bc</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text43</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>{IIF(SP_nLang=="1","วันที่............/.........../............","Date.........../............./..............")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text43>
+                <Text44 Ref="61" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.37,1.28,0.25,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>7ce18b251edd4898a1944cb2797a06a4</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text44</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>(</Text>
+                  <TextBrush>Black</TextBrush>
+                </Text44>
+                <Text45 Ref="62" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.22,0.88,5.1,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>e04a9173f64c4a49ac013c75c3142590</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text45</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>..........................................</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text45>
+                <Text46 Ref="63" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5.92,1.28,0.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,10</Font>
+                  <Guid>d6d7df180ec44d90b2cddf21fa51ed3f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text46</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>)</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text46>
+                <Text47 Ref="64" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.22,1.93,5.1,0.65</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>998e2b942e684e11b012730d4057799f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text47</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>{IIF(SP_nLang=="1","ผู้วางบิล","Billing person")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text47>
+                <Text48 Ref="65" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.22,2.58,5.1,0.45</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Tahoma,9</Font>
+                  <Guid>f7b03b73145c4c1ea61ac71630242adf</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text48</Name>
+                  <Page isRef="6" />
+                  <Parent isRef="55" />
+                  <Text>{IIF(SP_nLang=="1","วันที่............/.........../............","Date.........../............./..............")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text48>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Panel4</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+            </Panel4>
+            <GrossTotal Ref="66" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17,0.8,2.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>7dc2e6699c5b4440be86c9d0faac5459</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>GrossTotal</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{TARTSOHD.FCXphGrand}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </GrossTotal>
+            <tGrossTotal Ref="68" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0.8,4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>3586b5c7c01e466b9d90e04fce568ca0</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tGrossTotal</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{IIF(SP_nLang=="1","รวมเงิน","Gross")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </tGrossTotal>
+            <tRemark Ref="69" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.35,0.25,12.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Editable>True</Editable>
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>6b0583b29c5b4ab7a332f231abb3210b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tRemark</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <Text>{IIF(SP_nLang == "1","หมายเหตุ :","Note")}  {TARTSOHD.FTXphRmk}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </tRemark>
+            <Text1 Ref="70" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17,0.25,2.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>0ccd3794ef08432a80c38b8c1f7d03b3</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{Sum(TARTSODT.FCXpdInvPaid)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Totals</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="72" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0.25,4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>3f00bf6e29be402e997f9d22b46357cc</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{IIF(SP_nLang=="1","ยอดเงินที่ชำระแล้ว","Paid amount")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text17 Ref="73" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.35,0.8,12.55,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <Text>{IIF(SP_nLang=="1",ToCurrencyWordsThai(TARTSOHD.FCXphGrand),SP_tGrdStr)}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <EndPointPrimitive2 Ref="74" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.85,1.5,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <ReferenceToGuid>89106e34c9c340e2ac1b54ef762145cf</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <HorizontalLine3 Ref="75" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.15,0.1,19.7,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="76" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>9141c63f61c04eda8d2c42275830d854</Guid>
+              <Name>HorizontalLine3</Name>
+              <Page isRef="6" />
+              <Parent isRef="54" />
+              <StartCap Ref="77" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLine3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooter1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </PageFooter1>
+        <GroupHeader1 Ref="78" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,7.7,20.4,0.05</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{TARTSOHD.FTXphDocNo}</Condition>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeader1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+          <ResetPageNumber>True</ResetPageNumber>
+        </GroupHeader1>
+        <Data1 Ref="79" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,8.55,20.4,0.5</ClientRectangle>
+          <Components isList="true" count="9">
+            <LineNo Ref="80" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.25,0,0.9,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>5a988d2fc442466b84029c7d508302d8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>LineNo</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </LineNo>
+            <Text3 Ref="81" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0,2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{Switch(TARTSODT.FTSrnCode=="Sal",IIF(SP_nLang == "1","ใบขาย","Sale Invoice"),TARTSODT.FTSrnCode=="SC",IIF(SP_nLang == "1","ใบลดหนี้","Credit Note"),TARTSODT.FTSrnCode=="SD",IIF(SP_nLang == "1","ใบเพิ่มหนี้","Debit Note"))}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="82" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.22,0,1.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{TARTSODT.FTXpdRefDocDate}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text6 Ref="83" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.64,0,2.16,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>a958836cda8e4a5ebbccd6012384f776</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{Switch(TARTSODT.FTSrnCode=="Sal",TARTSODT.FCXpdInvLeft,TARTSODT.FTSrnCode=="SC",TARTSODT.FCXpdInvLeft*-1,TARTSODT.FTSrnCode=="SD",TARTSODT.FCXpdInvLeft)}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="84" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="85" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.8,0,1.88,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>0e4933af2823442e8c576c3ad1bb4287</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{TARTSODT.FCXpdInvPaid}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="86" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text10 Ref="87" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.68,0,2.08,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <Guid>63c623568b0846e6a1bf36a8f6d3a5a5</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{Switch(TARTSODT.FTSrnCode=="Sal",TARTSODT.FCXpdInvRem,TARTSODT.FTSrnCode=="SC",TARTSODT.FCXpdInvRem*-1,TARTSODT.FTSrnCode=="SD",TARTSODT.FCXpdInvRem)}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="88" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text20 Ref="89" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.02,0,3.53,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{TARTSODT.FTXpdRefDocNo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text12 Ref="90" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.6,0,3.21,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{TARTSODT.FTxtdDocNoRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text19 Ref="91" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.84,0,1.76,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <LineSpacing>1.1</LineSpacing>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="6" />
+              <Parent isRef="79" />
+              <Text>{TARTSODT.FTAjdDateTimeC1}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>TARTSODT</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <FilterOn>False</FilterOn>
+          <Filters isList="true" count="0" />
+          <KeepFooterTogether>False</KeepFooterTogether>
+          <KeepHeaderTogether>False</KeepHeaderTogether>
+          <Name>Data1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>FNXpdSeqNo</value>
+          </Sort>
+        </Data1>
+        <GroupFooter1 Ref="92" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,9.85,20.4,1.05</ClientRectangle>
+          <Components isList="true" count="2">
+            <HorizontalLine5 Ref="93" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.15,0.85,19.9,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="94" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>d34a902177b04835b2885a1d63cad5d6</Guid>
+              <Name>HorizontalLine5</Name>
+              <Page isRef="6" />
+              <Parent isRef="92" />
+              <StartCap Ref="95" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLine5>
+            <HorizontalLine1 Ref="96" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.15,0.1,19.9,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="97" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Guid>dfc378957a0c40809090eb53d4e101d3</Guid>
+              <Name>HorizontalLine1</Name>
+              <Page isRef="6" />
+              <Parent isRef="92" />
+              <StartCap Ref="98" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLine1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Enabled>False</Enabled>
+          <Expressions isList="true" count="0" />
+          <Name>GroupFooter1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </GroupFooter1>
+        <RoundedRectanglePrimitive1 Ref="99" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>10.85,0.5,9,0.9</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>9c492308b26d4f0cbb3333b8a6c11599</Guid>
+          <Name>RoundedRectanglePrimitive1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Round>0.01</Round>
+        </RoundedRectanglePrimitive1>
+        <RoundedRectangle1 Ref="100" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>0.15,6.1,19.7,17.9</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>89106e34c9c340e2ac1b54ef762145cf</Guid>
+          <Name>RoundedRectangle1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Round>0.01</Round>
+        </RoundedRectangle1>
+        <RoundedRectangle2 Ref="101" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>0.15,2.65,10.8,3.3</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>8faf532b730e4b038cdf2fcbc5a44c7d</Guid>
+          <Name>RoundedRectangle2</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Round>0.01</Round>
+        </RoundedRectangle2>
+        <RoundedRectangle3 Ref="102" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>11.05,2.65,8.8,3.3</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>011cfd3c68434d91bebc0383ffa0ae21</Guid>
+          <Name>RoundedRectangle3</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Round>0.01</Round>
+        </RoundedRectangle3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>9fddaf268bad40b58ffb7f5f54a17970</Guid>
+      <Margins>0.3,0.3,0.3,0.4</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <PaperSourceOfFirstPage>Automatically Select</PaperSourceOfFirstPage>
+      <PaperSourceOfOtherPages>Automatically Select</PaperSourceOfOtherPages>
+      <Report isRef="0" />
+      <Watermark Ref="103" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,150</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Frm_SQL_SMPBillStateMent</ReportAlias>
+  <ReportChanged>3/22/2022 5:51:06 PM</ReportChanged>
+  <ReportCreated>4/28/2009 1:45:33 PM</ReportCreated>
+  <ReportDescription>Frm_SQL_SMPBillStateMent</ReportDescription>
+  <ReportFile>\\192.168.0.99\ForCustomer\ShareData\Dev\Nui\Work@Home\AdaPos5.0\Stimu\22-03-22\ใบวางบิล-2022.1.4\Frm_SQL_SMSBillStateMent.mrt</ReportFile>
+  <ReportGuid>3809c315850a41239e3cc57c37f8a7f2</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2022.1.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
