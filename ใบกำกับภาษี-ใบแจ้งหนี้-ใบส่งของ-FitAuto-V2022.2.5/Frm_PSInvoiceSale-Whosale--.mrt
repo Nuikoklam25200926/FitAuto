@@ -1694,7 +1694,7 @@ Date</Text>
               <Name>Text5</Name>
               <Page isRef="10" />
               <Parent isRef="11" />
-              <Text>ใบกํากับภาษี/ใบแจ้งหนี้/ใบส่งของ {Switch(SP_tStaPrn=="1","( ต้นฉบับ )",SP_tStaPrn!="1","( สำเนา )")}</Text>
+              <Text>ทดสอบการแก้ไข ใบกํากับภาษี/ใบแจ้งหนี้/ใบส่งของ {Switch(SP_tStaPrn=="1","( ต้นฉบับ )",SP_tStaPrn!="1","( สำเนา )")}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
@@ -3657,13 +3657,13 @@ Date
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Frm_PSInvoiceSale</ReportAlias>
-  <ReportChanged>5/20/2022 3:07:01 PM</ReportChanged>
+  <ReportChanged>9/15/2022 11:50:54 AM</ReportChanged>
   <ReportCreated>2/19/2020 12:10:04 PM</ReportCreated>
-  <ReportFile>\\192.168.0.99\forcustomer\sharedata\dev\nui\work@home\adapos5.0\stimu\fitauto\22-05-20\ใบกำกับภาษี-ใบแจ้งหนี้-ใบส่งของ-fitauto-v2022.2.5\frm_psinvoicesale-whosale.mrt</ReportFile>
-  <ReportGuid>7ee79aae446047e7a038e4d07532e3c8</ReportGuid>
+  <ReportFile>d:\project\adapos5.0\fitauto\ใบกำกับภาษี-ใบแจ้งหนี้-ใบส่งของ-fitauto-v2022.2.5\frm_psinvoicesale-whosale--.mrt</ReportFile>
+  <ReportGuid>36f6283796e442fb8c0eaeda0b8bb7da</ReportGuid>
   <ReportName>Frm_PSInvoiceSale</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
-  <ReportVersion>2022.2.5.0</ReportVersion>
+  <ReportVersion>2022.1.4.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
