@@ -1,10 +1,10 @@
 {
   "ReportVersion": "2022.1.4.0",
-  "ReportGuid": "5fa4bbf47ed8498da0ce32d2b68f1988",
+  "ReportGuid": "7556098b153944da965ee2ae0efc91d9",
   "ReportName": "Frm_PSInvoiceSale",
   "ReportAlias": "Frm_PSInvoiceSale",
   "ReportCreated": "/Date(1582089004000+0700)/",
-  "ReportChanged": "/Date(1655352943492+0700)/",
+  "ReportChanged": "/Date(1663489033336+0700)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Frm_PSInvoiceSale : Stimulsoft.Report.StiReport\r\n    {\r\n        public Frm_PSInvoiceSale()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
@@ -64,7 +64,7 @@
         "AllowUseAsSqlParameter": true
       },
       "5": {
-        "Value": "S2220003000010000106",
+        "Value": "S2220003000030000002",
         "Name": "SP_tDocNo",
         "Alias": "SP_tDocNo",
         "Type": "System.String",
@@ -93,6 +93,14 @@
         "Type": "System.String",
         "Key": "7354a31517e14b39a9e37d4ea09a6d0d",
         "AllowUseAsSqlParameter": true
+      },
+      "9": {
+        "Value": "IIF(TCNMFanshine.FTAgnCode==\"\",\"00001\",TCNMFanshine.FTAgnCode)",
+        "Name": "ChkAgn",
+        "Alias": "ChkAgn",
+        "Type": "System.String",
+        "InitBy": "Expression",
+        "Key": "00756961b67a4e478222f8e26a08eb16"
       }
     },
     "DataSources": {
@@ -761,159 +769,181 @@
             "Index": -1,
             "NameInSource": "FTCompName",
             "Alias": "FTCompName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "fb2e74872fb74a6fb817b7c7e65322a8"
           },
           "1": {
             "Name": "FTBchCode",
             "Index": -1,
             "NameInSource": "FTBchCode",
             "Alias": "FTBchCode",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "023c188f146e477a8b459aff41d4d754"
           },
           "2": {
             "Name": "FTAddrType",
             "Index": -1,
             "NameInSource": "FTAddrType",
             "Alias": "FTAddrType",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "0d3e0dfc4dc3475c8533118516e36072"
           },
           "3": {
             "Name": "FTAddName",
             "Index": -1,
             "NameInSource": "FTAddName",
             "Alias": "FTAddName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "430212eec8a7466394cb2a400d280059"
           },
           "4": {
             "Name": "FTBchName",
             "Index": -1,
             "NameInSource": "FTBchName",
             "Alias": "FTBchName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "e1da7fd3fe304aa9b1b75a3718eec7c7"
           },
           "5": {
             "Name": "FTAddV1No",
             "Index": -1,
             "NameInSource": "FTAddV1No",
             "Alias": "FTAddV1No",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "73cdf8eb97c5410eaf3aab33d79e4123"
           },
           "6": {
             "Name": "FTAddV1Soi",
             "Index": -1,
             "NameInSource": "FTAddV1Soi",
             "Alias": "FTAddV1Soi",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "fae698cc74dd47a48302eee42ffaeb21"
           },
           "7": {
             "Name": "FTAddV1Village",
             "Index": -1,
             "NameInSource": "FTAddV1Village",
             "Alias": "FTAddV1Village",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "ddd29e012fa84ad59bcb2ccb553a90b3"
           },
           "8": {
             "Name": "FTAddV1Road",
             "Index": -1,
             "NameInSource": "FTAddV1Road",
             "Alias": "FTAddV1Road",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "e7d5ad2fc4be4eaeab1e9cce2ae90a6b"
           },
           "9": {
             "Name": "FTAddV1SubDist",
             "Index": -1,
             "NameInSource": "FTAddV1SubDist",
             "Alias": "FTAddV1SubDist",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "82a683be97764f5387231d04ce7efbdd"
           },
           "10": {
             "Name": "FTSudName",
             "Index": -1,
             "NameInSource": "FTSudName",
             "Alias": "FTSudName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "a5457b4737c542598ef77ca37d8593e7"
           },
           "11": {
             "Name": "FTAddV1DstCode",
             "Index": -1,
             "NameInSource": "FTAddV1DstCode",
             "Alias": "FTAddV1DstCode",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "7fb1ae46f9654f19bcfdd5b8f5d75e9a"
           },
           "12": {
             "Name": "FTDstName",
             "Index": -1,
             "NameInSource": "FTDstName",
             "Alias": "FTDstName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "64e023dfc02f49a88fe19cb0cb43b790"
           },
           "13": {
             "Name": "FTAddV1PvnCode",
             "Index": -1,
             "NameInSource": "FTAddV1PvnCode",
             "Alias": "FTAddV1PvnCode",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "e5783ed3a9364aa9936972e4eb0c41f5"
           },
           "14": {
             "Name": "FTPvnName",
             "Index": -1,
             "NameInSource": "FTPvnName",
             "Alias": "FTPvnName",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "1c96b5c36d8d470e8407f844ad2c5f86"
           },
           "15": {
             "Name": "FTAddV1PostCode",
             "Index": -1,
             "NameInSource": "FTAddV1PostCode",
             "Alias": "FTAddV1PostCode",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "4273f0eaa4fd402a9e596bbe7f185dbd"
           },
           "16": {
             "Name": "FTAddV2Desc1",
             "Index": -1,
             "NameInSource": "FTAddV2Desc1",
             "Alias": "FTAddV2Desc1",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "0caa4b1f06f8421abec5259767538133"
           },
           "17": {
             "Name": "FTAddV2Desc2",
             "Index": -1,
             "NameInSource": "FTAddV2Desc2",
             "Alias": "FTAddV2Desc2",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "1b1034db8c55455ab38b528f4ce3aca1"
           },
           "18": {
             "Name": "FTAddTel",
             "Index": -1,
             "NameInSource": "FTAddTel",
             "Alias": "FTAddTel",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "8016bd3aaff4417fb7a0142b29a57a6a"
           },
           "19": {
             "Name": "FTAddFax",
             "Index": -1,
             "NameInSource": "FTAddFax",
             "Alias": "FTAddFax",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "1c8ec1d968604e35823a17661435c5fe"
           },
           "20": {
             "Name": "FTAddWebsite",
             "Index": -1,
             "NameInSource": "FTAddWebsite",
             "Alias": "FTAddWebsite",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "a04c406d91d2448b81884ad84cd187fb"
           },
           "21": {
             "Name": "FTAddTaxNo",
             "Index": -1,
             "NameInSource": "FTAddTaxNo",
             "Alias": "FTAddTaxNo",
-            "Type": "System.String"
+            "Type": "System.String",
+            "Key": "fd98e56bc0204bc9969bded68521c253"
           }
         },
         "NameInSource": "SaleInv",
         "CommandTimeout": 5000,
-        "SqlCommand": "SELECT \r\n\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeMer,'') THEN FTMerName ELSE \r\n\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeAgn,'') THEN FTAgnName ELSE  \r\n\t\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeBch,'') THEN FTCmpName ELSE \r\n\t\t\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeCmp,'') THEN FTCmpName ELSE \r\n(SELECT CmpL.FTCmpName \r\n\tFROM TCNMComp Cmp  WITH (NOLOCK) LEFT JOIN\r\n\t\t\t\t TCNMComp_L CmpL  WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND FNLngID = @pnLanguage\r\n\t\t\t\t WHERE FTBchCode = @ptCompCode)   \r\n\t\t\tEND\r\n\t\tEND\r\n\tEND\r\nEND\r\nAS \tFTCompName,FTBchCode,\r\nFTAddrType,FTAddName,(SELECT FTBchName FROM TCNMBranch_L  WITH (NOLOCK) WHERE  FTBchCode = @ptDocBch AND FNLngID = @pnLanguage ) AS FTBchName,\r\nFTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,FTSudName,FTAddV1DstCode,FTDstName,FTAddV1PvnCode,FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,\r\nFTAddTel,FTAddFax,FTAddWebsite  ,FTAddTaxNo\r\nFROM\r\n(SELECT BchMst.FTBchCode, AddrL.FTAddRefCode,FTAddRefCodeMer,Mer.FTMerName,Agn.FTAddRefCodeAgn,Agn.FTAgnName,Bch.FTAddRefCodeBch,\r\n\tBch.FTCmpName AS FTCmpNameBch,FTAddRefCodeCmp,\r\n\t(SELECT FTCmpName FROM TCNMComp_L WHERE FTCmpCode = @ptCompCode AND FNLngID = @pnLanguage) AS FTCmpName,\r\n\tFTAddVersion AS FTAddrType,AddrL.FTAddName,\r\n\tFTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,SDstL.FTSudName,FTAddV1DstCode,DstL.FTDstName,FTAddV1PvnCode,PvnL.FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,\r\n\tAddrL.FTAddTel,AddrL.FTAddFax,AddrL.FTAddWebsite  ,FTAddTaxNo\r\n\tFROM TCNMBranch BchMst  WITH (NOLOCK) LEFT JOIN \r\n\tTCNMAddress_L AddrL  WITH (NOLOCK) ON BchMst.FTBchCode = AddrL.FTAddRefCode\r\n\t LEFT JOIN\r\n\t\t\t (\r\nSELECT FTBchCode,Bch.FTMerCode,FTMerName,FTAddRefCode AS FTAddRefCodeMer\r\n\tFROM  TCNMBranch Bch WITH (NOLOCK) \r\n\t\t\t\tINNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTMerCode = AddrL.FTAddRefCode AND AddrL.FTAddGrpType = '7' AND AddrL.FTAddRefNo = '1'\r\n\t\t\t\tLEFT JOIN TCNMMerChant_L MerL WITH (NOLOCK) ON Bch.FTMerCode = MerL.FTMerCode AND MerL.FNLngID = @pnLanguage\r\n\t\t\t\tWHERE FTBchCode = @ptCmpBch  \r\n\t\t\t ) Mer ON AddrL.FTAddRefCode  = Mer.FTAddRefCodeMer \r\n\r\n\t LEFT JOIN\r\n\t\t\t\r\n(SELECT FTBchCode,Agn.FTAgnCode,AgnL.FTAgnName,FTAddRefCode AS FTAddRefCodeAgn\r\n\tFROM  TCNMAgency Agn WITH (NOLOCK) \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Agn.FTAgnCode = AddrL.FTAddRefCode  AND  AddrL.FTAddGrpType = '5' \r\n\t\t\t LEFT JOIN TCNMAgency_L AgnL WITH (NOLOCK) ON Agn.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID = @pnLanguage\r\n\t\t\t WHERE AddrL.FTAddRefNo = '1'\r\n\t\t\t) Agn  ON AddrL.FTAddRefCode  = Agn.FTAddRefCodeAgn\r\n\r\n\t LEFT JOIN\r\n\t\t\r\n(SELECT Bch.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeBch\r\n\tFROM  TCNMBranch Bch WITH (NOLOCK) \r\n\t\t\t LEFT JOIN TCNMComp Cmp WITH (NOLOCK) ON Cmp.FTBchCode = Bch.FTBchCode \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'\r\n\t\t\t LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage\r\n\t\t\t WHERE Bch.FTBchCode = @ptCmpBch \r\n\t\t\t) Bch ON  AddrL.FTAddRefCode  = Bch.FTAddRefCodeBch\r\n\t LEFT JOIN\r\n\t\t\r\n(SELECT Cmp.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeCmp\r\n\tFROM  TCNMComp Cmp WITH (NOLOCK) \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Cmp.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'\r\n\t\t\t LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage\r\n\t\t\t WHERE Cmp.FTBchCode = @ptCmpBch \r\n\t\t\t) Cmp ON  AddrL.FTAddRefCode  = Cmp.FTAddRefCodeCmp\r\n\t LEFT JOIN TCNMProvince_L PvnL WITH (NoLock) ON  AddrL.FTAddV1PvnCode = PvnL.FTPvnCode AND PvnL.FNLngID = @pnLanguage\r\n\t LEFT JOIN TCNMDistrict_L DstL WITH (NoLock) ON  AddrL.FTAddV1DstCode = DstL.FTDstCode AND DstL.FNLngID = @pnLanguage\t\t\r\n\t LEFT JOIN TCNMSubDistrict_L SDstL WITH (NoLock) ON  AddrL.FTAddV1SubDist = SDstL.FTSudCode AND SDstL.FNLngID = @pnLanguage\t\t\r\n\t WHERE BchMst.FTBchCode = @ptCmpBch OR\r\n\t    (AddrL.FTAddRefCode = Mer.FTMerCode OR AddrL.FTAddRefCode = Agn.FTAgnCode OR AddrL.FTAddRefCode = Bch.FTBchcode OR AddrL.FTAddRefCode = Cmp.FTBchcode )\r\n) AddrSum",
+        "SqlCommand": "SELECT \r\n\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeMer,'') THEN FTMerName ELSE \r\n\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeAgn,'') THEN FTAgnName ELSE  \r\n\t\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeBch,'') THEN FTCmpName ELSE \r\n\t\t\tCASE WHEN FTAddRefCode = ISNULL(FTAddRefCodeCmp,'') THEN FTCmpName ELSE \r\n(SELECT CmpL.FTCmpName \r\n\tFROM TCNMComp Cmp  WITH (NOLOCK) LEFT JOIN\r\n\t\t\t\t TCNMComp_L CmpL  WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND FNLngID = @pnLanguage\r\n\t\t\t\t WHERE FTBchCode = @ptCompCode)  \r\n\t\t\tEND\r\n\t\tEND\r\n\tEND\r\nEND\r\nAS \tFTCompName,FTBchCode,\r\nFTAddrType,FTAddName,(SELECT FTBchName FROM TCNMBranch_L  WITH (NOLOCK) WHERE  FTBchCode = @ptDocBch AND FNLngID = @pnLanguage ) AS FTBchName,\r\nFTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,FTSudName,FTAddV1DstCode,FTDstName,FTAddV1PvnCode,FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,\r\nFTAddTel,FTAddFax,FTAddWebsite  ,FTAddTaxNo\r\nFROM\r\n(SELECT BchMst.FTBchCode, AddrL.FTAddRefCode,FTAddRefCodeMer,Mer.FTMerName,Agn.FTAddRefCodeAgn,Agn.FTAgnName,Bch.FTAddRefCodeBch,\r\n\tBch.FTCmpName AS FTCmpNameBch,FTAddRefCodeCmp,\r\n\t(SELECT FTCmpName FROM TCNMComp_L WHERE FTCmpCode = @ptCompCode AND FNLngID = @pnLanguage) AS FTCmpName,\r\n\tFTAddVersion AS FTAddrType,AddrL.FTAddName,\r\n\tFTAddV1No,FTAddV1Soi,FTAddV1Village,FTAddV1Road,FTAddV1SubDist,SDstL.FTSudName,FTAddV1DstCode,DstL.FTDstName,FTAddV1PvnCode,PvnL.FTPvnName,FTAddV1PostCode,FTAddV2Desc1,FTAddV2Desc2,\r\n\tAddrL.FTAddTel,AddrL.FTAddFax,AddrL.FTAddWebsite  ,FTAddTaxNo\r\n\tFROM TCNMBranch BchMst  WITH (NOLOCK) LEFT JOIN \r\n\tTCNMAddress_L AddrL  WITH (NOLOCK) ON BchMst.FTBchCode = AddrL.FTAddRefCode\r\n\t LEFT JOIN\r\n\t\t\t (\r\nSELECT FTBchCode,Bch.FTMerCode,FTMerName,FTAddRefCode AS FTAddRefCodeMer\r\n\tFROM  TCNMBranch Bch WITH (NOLOCK) \r\n\t\t\t\tINNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTMerCode = AddrL.FTAddRefCode AND AddrL.FTAddGrpType = '7' AND AddrL.FTAddRefNo = '1'\r\n\t\t\t\tLEFT JOIN TCNMMerChant_L MerL WITH (NOLOCK) ON Bch.FTMerCode = MerL.FTMerCode AND MerL.FNLngID = @pnLanguage\r\nWHERE FTBchCode = CASE WHEN (SELECT ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch WHERE FTBchCode = @ptDocBch) = '' THEN @ptCompCode ELSE @ptDocBch END   \r\n\t\t\t ) Mer ON AddrL.FTAddRefCode  = Mer.FTAddRefCodeMer \r\n\r\n\t LEFT JOIN\r\n\t\t\t\r\n(SELECT FTBchCode,Agn.FTAgnCode,AgnL.FTAgnName,FTAddRefCode AS FTAddRefCodeAgn\r\n\tFROM  TCNMAgency Agn WITH (NOLOCK) \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Agn.FTAgnCode = AddrL.FTAddRefCode  AND  AddrL.FTAddGrpType = '5' \r\n\t\t\t LEFT JOIN TCNMAgency_L AgnL WITH (NOLOCK) ON Agn.FTAgnCode = AgnL.FTAgnCode AND AgnL.FNLngID = 1\r\nWHERE FTBchCode = CASE WHEN (SELECT ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch WHERE FTBchCode = @ptDocBch) = '' THEN @ptCompCode ELSE @ptDocBch END   \r\n\t\t\t) Agn  ON AddrL.FTAddRefCode  = Agn.FTAddRefCodeAgn\r\n\r\n\t LEFT JOIN\r\n\t\t\r\n(SELECT Bch.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeBch\r\n\tFROM  TCNMBranch Bch WITH (NOLOCK) \r\n\t\t\t LEFT JOIN TCNMComp Cmp WITH (NOLOCK) ON Cmp.FTBchCode = Bch.FTBchCode \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Bch.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'\r\n\t\t\t LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage\t\t\t \r\nWHERE Bch.FTBchCode = CASE WHEN (SELECT ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch WHERE FTBchCode = @ptDocBch) = '' THEN @ptCompCode ELSE @ptDocBch END\r\n\t\t\t) Bch ON  AddrL.FTAddRefCode  = Bch.FTAddRefCodeBch\r\n\t LEFT JOIN\r\n\t\t\r\n(SELECT Cmp.FTBchCode,CmpL.FTCmpName,FTAddRefCode AS FTAddRefCodeCmp\r\n\tFROM  TCNMComp Cmp WITH (NOLOCK) \r\n\t\t\t INNER JOIN TCNMAddress_L AddrL WITH (NOLOCK) ON Cmp.FTBchCode = AddrL.FTAddRefCode  AND AddrL.FTAddRefNo = '1'\r\n\t\t\t LEFT JOIN TCNMComp_L CmpL WITH (NOLOCK) ON Cmp.FTCmpCode = CmpL.FTCmpCode AND CmpL.FNLngID = @pnLanguage\t\t\t \r\nWHERE Cmp.FTBchCode = CASE WHEN (SELECT ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch WHERE FTBchCode = @ptDocBch) = '' THEN @ptCompCode ELSE @ptDocBch END\r\n\t\t\t) Cmp ON  AddrL.FTAddRefCode  = Cmp.FTAddRefCodeCmp\r\n\t LEFT JOIN TCNMProvince_L PvnL WITH (NoLock) ON  AddrL.FTAddV1PvnCode = PvnL.FTPvnCode AND PvnL.FNLngID = @pnLanguage\r\n\t LEFT JOIN TCNMDistrict_L DstL WITH (NoLock) ON  AddrL.FTAddV1DstCode = DstL.FTDstCode AND DstL.FNLngID = @pnLanguage\t\t\r\n\t LEFT JOIN TCNMSubDistrict_L SDstL WITH (NoLock) ON  AddrL.FTAddV1SubDist = SDstL.FTSudCode AND SDstL.FNLngID = @pnLanguage\t\t\r\nWHERE BchMst.FTBchCode = CASE WHEN (SELECT ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch WHERE FTBchCode = @ptDocBch) = '' THEN @ptCompCode ELSE @ptDocBch END\r\n\t OR\r\n\t    (AddrL.FTAddRefCode = Mer.FTMerCode OR AddrL.FTAddRefCode = Agn.FTAgnCode OR AddrL.FTAddRefCode = Bch.FTBchcode OR AddrL.FTAddRefCode = Cmp.FTBchcode )\r\n) AddrSum",
         "Parameters": {
           "0": {
             "Name": "ptCompCode",
@@ -1520,6 +1550,40 @@
             "Size": 3
           }
         }
+      },
+      "7": {
+        "Ident": "StiSqlSource",
+        "Name": "TCNMFanshine",
+        "Alias": "TCNMFanshine",
+        "Key": "a52133bba26e4069bb7ee6f481f21f7c",
+        "Columns": {
+          "0": {
+            "Name": "FTBchCode",
+            "Index": -1,
+            "NameInSource": "FTBchCode",
+            "Alias": "FTBchCode",
+            "Type": "System.String",
+            "Key": "75890af704fd48d29b876799d36123e3"
+          },
+          "1": {
+            "Name": "FTAgnCode",
+            "Index": -1,
+            "NameInSource": "FTAgnCode",
+            "Alias": "FTAgnCode",
+            "Type": "System.String",
+            "Key": "649272bde6d64e7fa3e32afefd683567"
+          }
+        },
+        "NameInSource": "SaleInv",
+        "SqlCommand": "SELECT FTBchCode,ISNULL(FTAgnCode,'') AS FTAgnCode FROM TCNMBranch\r\nWHERE FTBchCode = @ptBranch",
+        "Parameters": {
+          "0": {
+            "Name": "ptBranch",
+            "Expression": "SP_tDocBch",
+            "Type": 22,
+            "Size": 5
+          }
+        }
       }
     },
     "Databases": {
@@ -1620,7 +1684,7 @@
                         "Ident": "StiInteraction"
                       },
                       "Text": {
-                        "Value": "{Company.FTCompName}"
+                        "Value": "{IIF(TCNMFanshine.FTAgnCode ==\"\",Company.FTCompName,Company.FTBchName)}"
                       },
                       "VertAlignment": "Center",
                       "Font": "Tahoma;7.5;Bold;",
@@ -1633,7 +1697,7 @@
                         "Top": 3.0,
                         "Bottom": 0.0
                       },
-                      "Type": "DataColumn"
+                      "Type": "Expression"
                     },
                     "2": {
                       "Ident": "StiImage",
