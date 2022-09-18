@@ -1604,8 +1604,7 @@
         "Ident": "StiSqlDatabase",
         "Name": "SaleInv",
         "Alias": "SaleInv",
-        "Key": "2bd6b7dbbd7c4c568b5457bcf4b7ef91",
-        "ConnectionStringEncrypted": "9D7dSGJ4091gW6WYSklgP9Fuy8JFWXv16UnojU1x43+NWs3J5EoxbXFvnNxjZCS71Or7K8ZR88hqSYSAyAnrXoFU2aHGUEHtQEdxmXoN5+uCVsGD3ExD8HJJ0ZhjHelmg3CBzeVLAYTtTb34xBmk"
+        "Key": "2bd6b7dbbd7c4c568b5457bcf4b7ef91"
       }
     }
   },
